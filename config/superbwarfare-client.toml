@@ -1,113 +1,113 @@
 
 [reload]
 	#Set true if you want to reload guns when ammo is empty by clicking left button
-	#是否启用快捷换弹（点击左键触发换弹）
+	#жЇеђ¦еђЇз”Ёеї«жЌ·жЌўеј№пј€з‚№е‡»е·¦й”®и§¦еЏ‘жЌўеј№пј‰
 	left_click_reload = true
 
 [kill_message]
 	#Set true if you want to show kill message
-	#是否显示击杀提示
+	#жЇеђ¦жѕз¤єе‡»жќЂжЏђз¤є
 	show_kill_message = true
 	#The position of kill message
-	#击杀提示的位置
+	#е‡»жќЂжЏђз¤єзљ„дЅЌзЅ®
 	#Allowed Values: LEFT_TOP, LEFT_BOTTOM, RIGHT_TOP, RIGHT_BOTTOM
 	kill_message_position = "RIGHT_TOP"
 	#The max count of kill messages to show concurrently
-	#击杀提示的最大同屏显示数量
+	#е‡»жќЂжЏђз¤єзљ„жњЂе¤§еђЊе±Џжѕз¤єж•°й‡Џ
 	#Range: 1 ~ 100
 	kill_message_count = 10
 	#The x margin of kill message
-	#击杀提示的水平方向偏移量
+	#е‡»жќЂжЏђз¤єзљ„ж°ґе№іж–№еђ‘еЃЏз§»й‡Џ
 	#Range: -1000 ~ 1000
 	kill_message_margin_x = 0
 	#The y margin of kill message
-	#击杀提示的竖直方向偏移量
+	#е‡»жќЂжЏђз¤єзљ„з«–з›ґж–№еђ‘еЃЏз§»й‡Џ
 	#Range: -1000 ~ 1000
 	kill_message_margin_y = 5
 
 	[kill_message.display]
 		#Set true to enable gun lod
-		#是否启用枪械低模
+		#жЇеђ¦еђЇз”ЁжћЄжў°дЅЋжЁЎ
 		enable_gun_lod = false
 		#The x offset of weapon hud
-		#枪械HUD的水平方向偏移量
+		#жћЄжў°HUDзљ„ж°ґе№іж–№еђ‘еЃЏз§»й‡Џ
 		#Range: -1000 ~ 1000
 		weapon_hud_x_offset = 0
 		#The y offset of weapon hud
-		#枪械HUD的竖直方向偏移量
+		#жћЄжў°HUDзљ„з«–з›ґж–№еђ‘еЃЏз§»й‡Џ
 		#Range: -1000 ~ 1000
 		weapon_hud_y_offset = 0
 		#Set true to enable heat bar hud
-		#是否启用武器过热条HUD
+		#жЇеђ¦еђЇз”Ёж­¦е™Ёиї‡зѓ­жќЎHUD
 		enable_heat_bar_hud = true
 		#The x offset of heat bar hud
-		#武器过热条HUD的水平偏移量
+		#ж­¦е™Ёиї‡зѓ­жќЎHUDзљ„ж°ґе№іеЃЏз§»й‡Џ
 		#Range: -1000 ~ 1000
 		heat_bar_hud_x_offset = 0
 		#The y offset of heat bar hud
-		#武器过热条HUD的竖直偏移量
+		#ж­¦е™Ёиї‡зѓ­жќЎHUDзљ„з«–з›ґеЃЏз§»й‡Џ
 		#Range: -1000 ~ 1000
 		heat_bar_hud_y_offset = 0
 		#Set true if you want to show kill indication while killing an entity
-		#是否开启准星周围的击杀提示
+		#жЇеђ¦ејЂеђЇе‡†жџе‘Ёе›ґзљ„е‡»жќЂжЏђз¤є
 		kill_indication = true
 		#Set true to show ammo and gun info on HUD
-		#是否开启枪械和弹药HUD
+		#жЇеђ¦ејЂеђЇжћЄжў°е’Њеј№иЌЇHUD
 		ammo_hud = true
 		#Set true to show advanced ammo info on HUD
-		#是否开启高级弹药显示HUD（显示弹种）
+		#жЇеђ¦ејЂеђЇй«зє§еј№иЌЇжѕз¤єHUDпј€жѕз¤єеј№з§Ќпј‰
 		advanced_ammo_hud = true
 		#Set true to display vehicle info when aiming at a vehicle
-		#是否开启看向载具时的信息显示
+		#жЇеђ¦ејЂеђЇзњ‹еђ‘иЅЅе…·ж—¶зљ„дїЎжЃЇжѕз¤є
 		vehicle_info = true
 		#Set true to display IFF HUD
-		#是否开启敌我识别装置位置HUD
+		#жЇеђ¦ејЂеђЇж•Њж€‘иЇ†е€«иЈ…зЅ®дЅЌзЅ®HUD
 		iff_hud = true
 		#Set true to enable float cross hair
-		#是否开启浮动准星
+		#жЇеђ¦ејЂеђЇжµ®еЉЁе‡†жџ
 		float_cross_hair = true
 		#Set true to enable camera rotate when holding a gun
-		#是否开启持枪时视角晃动
+		#жЇеђ¦ејЂеђЇжЊЃжћЄж—¶и§†и§’ж™ѓеЉЁ
 		camera_rotate = true
 		#Set true to enable armor plate hud
-		#是否开启护甲板HUD
+		#жЇеђ¦ејЂеђЇжЉ¤з”ІжќїHUD
 		armor_plate_hud = true
 		#Set true to enable stamina hud
-		#是否开启耐力条HUD
+		#жЇеђ¦ејЂеђЇиЂђеЉ›жќЎHUD
 		stamina_hud = true
 		#Set true to show the name of dog tag in kill messages
-		#是否开启击杀提示的狗牌名称显示
+		#жЇеђ¦ејЂеђЇе‡»жќЂжЏђз¤єзљ„з‹—з‰ЊеђЌз§°жѕз¤є
 		dog_tag_name_visible = true
 		#Set true to show the icon of dog tag in kill messages
-		#是否开启击杀提示的狗牌图标显示
+		#жЇеђ¦ејЂеђЇе‡»жќЂжЏђз¤єзљ„з‹—з‰Ње›ѕж ‡жѕз¤є
 		dog_tag_icon_visible = false
 		#The strength of screen shaking while firing with a weapon
-		#使用武器开火时的屏幕晃动强度
+		#дЅїз”Ёж­¦е™ЁејЂзЃ«ж—¶зљ„е±Џе№•ж™ѓеЉЁејєеє¦
 		#Range: 0 ~ 100
 		weapon_screen_shake = 100
 		#The strength of screen shaking while exploding
-		#爆炸时的屏幕晃动强度
+		#з€†з‚ёж—¶зљ„е±Џе№•ж™ѓеЉЁејєеє¦
 		#Range: 0 ~ 100
 		explosion_screen_shake = 100
 		#The strength of screen shaking when shocked
-		#被麻痹时的屏幕晃动强度
+		#иў«йє»з—№ж—¶зљ„е±Џе№•ж™ѓеЉЁејєеє¦
 		#Range: 0 ~ 100
 		shock_screen_shake = 100
 		#Set true to enable version check warning when version of this mod has been changed
-		#是否启用版本检查警告
+		#жЇеђ¦еђЇз”Ёз‰€жњ¬жЈЂжџҐи­¦е‘Љ
 		enable_version_check_warning = true
 
 	[kill_message.control]
 		#Set true to invert aircraft control
-		#是否反转飞行器鼠标操控
+		#жЇеђ¦еЏЌиЅ¬йЈћиЎЊе™Ёйј ж ‡ж“ЌжЋ§
 		invert_aircraft_control = false
 		#Sensitivity of mouse
-		#鼠标灵敏度
+		#йј ж ‡зЃµж•Џеє¦
 		#Range: 10 ~ 200
 		mouse_sensitivity = 100
 
 	[kill_message.checksum]
 		#System environment checksum, do not edit
-		#校验码，别动
+		#ж ЎйЄЊз ЃпјЊе€«еЉЁ
 		environment_checksum = ""
 

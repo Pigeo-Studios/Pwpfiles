@@ -2,6 +2,6 @@
 #Warborn Renewed Configuration
 [general]
 	#Should armor take damage and break? If false, armor will have infinite durability.
-	#Должна ли броня получать урон и ломаться? Если false, броня будет иметь бесконечную прочность.
+	#Р”РѕР»Р¶РЅР° Р»Рё Р±СЂРѕРЅСЏ РїРѕР»СѓС‡Р°С‚СЊ СѓСЂРѕРЅ Рё Р»РѕРјР°С‚СЊСЃСЏ? Р•СЃР»Рё false, Р±СЂРѕРЅСЏ Р±СѓРґРµС‚ РёРјРµС‚СЊ Р±РµСЃРєРѕРЅРµС‡РЅСѓСЋ РїСЂРѕС‡РЅРѕСЃС‚СЊ.
 	armorIsDamageable = true
 
