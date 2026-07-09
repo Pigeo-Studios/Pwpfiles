@@ -1,7 +1,0 @@
-#Number of Minecraft days between loot refreshes
-#Range: 1 ~ 365
-lootRefreshDays = 1
-#Block IDs that can NOT be looted. Add a block's registry name here to globally turn off its looting capability for that block type.
-#Example: ["doomsday_decoration:atm", "doomsday_decoration:safe"]
-lootBlacklist = []
-
