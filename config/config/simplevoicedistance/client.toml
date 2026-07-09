@@ -1,0 +1,21 @@
+
+#Client-side settings for Simple Voice Distance
+[voice_hud]
+	#Horizontal offset of the voice HUD icon (pixels)
+	#Range: -200 ~ 200
+	hudOffsetX = -50
+	#Vertical offset of the voice HUD icon (pixels)
+	#Range: -200 ~ 200
+	hudOffsetY = -3
+	#Horizontal offset of the voice mode tag (pixels)
+	#Range: -200 ~ 200
+	modeTagOffsetX = 0
+	#Vertical offset of the voice mode tag (pixels)
+	#Range: -200 ~ 200
+	modeTagOffsetY = -20
+	#Show voice mode tag (e.g. [WHISPER], [NORMAL], [CALL], [SHOUT]) next to player names
+	showVoiceModeTag = true
+	#Show welcome message on client login
+	showWelcomeMessage = true
+	showChatPrefix = true
+

@@ -1,0 +1,7 @@
+#Master switch. If false — the mod is completely disabled for all clients on this server.
+#Clients will not receive packets, HUD and shader will not render.
+mod_enabled = true
+#Allow clients with [SW] Drone HUD++ to use the FPV analog shader on this server.
+#Only takes effect when mod_enabled = true.
+shader_enabled = true
+
