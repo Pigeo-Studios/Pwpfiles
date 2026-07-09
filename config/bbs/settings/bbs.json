@@ -1,0 +1,130 @@
+{
+    "editor": {
+        "angle_speed": 1.0,
+        "onion_skin": {
+            "all": false,
+            "pre_frames": 1,
+            "pre_color": -1140903117,
+            "post_frames": 1,
+            "enabled": false,
+            "post_color": -1154220237,
+            "group": "pose"
+        },
+        "minutes_backup": true,
+        "snap_to_markers": false,
+        "horizontal_flight": false,
+        "speed": 1.0,
+        "center_lines": false,
+        "clip_preview": true,
+        "duration": 30,
+        "layout": {
+            "editor_size_v": 0.5,
+            "horizontal": false,
+            "main_size_h": 0.66,
+            "editor_size_h": 0.5,
+            "main_size_v": 0.66,
+            "state_editor_size_h": 0.7,
+            "state_editor_size_v": 0.25
+        },
+        "crosshair": false,
+        "periodic_save": 60,
+        "seconds": false,
+        "rewind": true,
+        "rule_of_thirds": false,
+        "loop": false,
+        "guides_color": -859045888,
+        "horizontal_clip_editor": true,
+        "jump": 5
+    },
+    "chroma_sky": {
+        "color": -1157627904,
+        "billboard": 0.0,
+        "terrain": true,
+        "enabled": false
+    },
+    "recording": {
+        "swipe_damage": false,
+        "overlays": true,
+        "countdown": 1.5,
+        "pose_transform_overlays": 0,
+        "camera_preview": true
+    },
+    "multiskin": {
+        "multithreaded": true
+    },
+    "video": {
+        "settings": {
+            "heldFrames": 1,
+            "frameRate": 60,
+            "arguments_audio": "-f rawvideo -pix_fmt bgr24 -s %WIDTH%x%HEIGHT% -r %FPS% -i - -i %AUDIO_TRACK% -vf %FILTERS% -c:v libx264 -preset ultrafast -tune zerolatency -qp 18 -pix_fmt yuv420p -c:a aac -b:a 128k -shortest %NAME%.mp4",
+            "motionBlur": 0,
+            "width": 1280,
+            "arguments": "-f rawvideo -pix_fmt bgr24 -s %WIDTH%x%HEIGHT% -r %FPS% -i - -vf %FILTERS% -c:v libx264 -preset ultrafast -tune zerolatency -qp 18 -pix_fmt yuv420p %NAME%.mp4",
+            "audio": false,
+            "exportPath": "",
+            "height": 720
+        },
+        "log": true,
+        "encoder_path": "ffmpeg"
+    },
+    "cdn": {
+        "url": "",
+        "token": ""
+    },
+    "model_blocks": {
+        "render_all": true,
+        "click": true
+    },
+    "appearance": {
+        "freeze_models": false,
+        "hsv_color_picker": true,
+        "ui_scale": 2,
+        "language": "",
+        "click_sound": false,
+        "primary_color": 35071,
+        "trackpad_scrolling": true,
+        "fov": 40.0,
+        "favorite_colors": [],
+        "trackpad_increments": true,
+        "axes_scale": 1.0,
+        "gizmos": true,
+        "disabled_sheets": ["item_feet", "vX", "vY", "vZ", "item_chest", "grounded", "item_legs", "trigger_l", "item_off_hand", "item_head", "stick_rx", "stick_ry", "extra2_y", "extra1_y", "extra2_x", "extra1_x", "trigger_r"],
+        "tooltip_style": 1,
+        "force_qwerty": false,
+        "uniform_scale": false
+    },
+    "scrollbars": {
+        "sensitivity_horizontal": 1.0,
+        "smoothness": true,
+        "shadow": -2013265920,
+        "width": 4,
+        "sensitivity": 1.0
+    },
+    "shader_curves": {
+        "enabled": true
+    },
+    "tutorials": {
+        "cursor": false,
+        "mouse_buttons": false,
+        "keystrokes_offset": 10,
+        "keystrokes": false,
+        "keystrokes_position": 1
+    },
+    "background": {
+        "color": -1157627904
+    },
+    "entity_selectors": {
+        "whitelist": "CustomName,Name"
+    },
+    "audio": {
+        "waveform_density": 20,
+        "waveform_width": 0.8,
+        "waveform_height": 24,
+        "waveform_time": false,
+        "waveform_visible": true,
+        "waveform_filename": false
+    },
+    "dc": {
+        "enabled": true
+    }
+}

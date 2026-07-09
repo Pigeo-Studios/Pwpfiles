@@ -1,0 +1,95 @@
+#Play siren at 50 tickets
+lowTicketsSiren = true
+#Grenade destruction
+agsProjectileDestruction = true
+#Ammo explosion destruction
+ammoStackDestruction = true
+#Digging speed multiplier
+#Range: 0.1 ~ 10.0
+diggingSpeedMultiplier = 1.0
+#Prevent players from breaking blocks
+preventBlockBreaking = true
+#Prevent item dropping in survival when game is started
+preventAllItemDrops = true
+#Cost for kit resupply
+#Range: 0 ~ 1000
+hubResupplyCost = 10
+#Enable knockout mechanic
+enableKnockout = true
+#Registry name of the item used to revive (e.g. 'pwp_medicine:medkit')
+reviveItem = "pwp_medicine:medkit"
+#Time in seconds where dying again results in instant death
+#Range: 0 ~ 600
+reviveCooldownSeconds = 120
+#Does spawning at FOB cost materials?
+hubSpawnCostsMaterials = false
+#Material cost to spawn at FOB
+#Range: 0 ~ 1000
+hubSpawnMaterialCost = 10
+#Give regeneration near Main Base?
+mainSupplyHealing = true
+#Radius for Main Base healing
+#Range: 1 ~ 50
+mainSupplyHealRadius = 5
+#Allow players to break walls and barbed wire even if PREVENT_BLOCK_BREAKING is true
+allowBreakingDefenses = true
+#Automatically give radio to new Squad Leaders
+autoGiveSlRadio = false
+#Does placing a FOB require a Supply Crate nearby? (Consumes the crate, crate gives 0 mats to FOB)
+hubPlacementRequiresCrate = false
+#Max time in downed state before bleeding out (seconds)
+#Range: 5 ~ 3600
+maxDownedTimeSeconds = 180
+#Time in minutes until game starts automatically during voting
+#Range: 1 ~ 60
+voteAutoStartTime = 10
+#Percentage of team members needed to be 'Ready'
+#Range: 1 ~ 100
+voteRequiredPercentage = 100
+#Completely block access to the vehicle inventory (from the outside via Shift+RMB and from the inside by pressing E)
+preventVehicleInventoryAccess = true
+#If the squad leader does not have the "Officer" kit, the squad will disband after 120 seconds.
+requireOfficerForSL = false
+#Prevent players from entering vehicles claimed by the enemy team
+preventEnemyVehicleEntry = true
+#If true, only Pilots can fly and only Mechanics can drive heavy vehicles. Others are kicked from driver seat after 5 seconds.
+requireSpecialistToDrive = true
+#Cooldown for Artillery Strike in minutes
+#Range: 1 ~ 120
+artStrikeCooldownMinutes = 30
+#Artillery strike impact radius
+#Range: 5 ~ 100
+artStrikeRadius = 20
+#Range: 0 ~ 10000
+minHubDistance = 150
+#Range: 0 ~ 10000
+minRallyPointDistance = 150
+#Range: 1 ~ 100
+maxHubsPerTeam = 8
+#Range: 5 ~ 200
+hubBlockRadius = 40
+#Range: 5 ~ 200
+rallyBlockRadius = 40
+#Range: 1 ~ 128
+hubSoundRadius = 15
+#Range: 10 ~ 200
+hubBuildRadius = 50
+#Range: 5 ~ 200
+crateBuildRadius = 50
+#Range: 1 ~ 20
+hubBlockEnemyCount = 3
+#Range: 1 ~ 20
+rallyBlockEnemyCount = 1
+#Max supply crates in a truck
+#Range: 1 ~ 20
+supplyTruckCrates = 2
+#Materials per dropped supply crate
+#Range: 10 ~ 1000
+supplyCrateMaterials = 50
+blueTeamCustomName = "BLUEFOR"
+redTeamCustomName = "REDFOR"
+#Automatically give walkietalkie to all players on match servers
+autoGiveWalkieTalkie = true
+#Lock walkietalkie channels per team (BLUE=1, RED=2)
+teamBasedWalkieTalkie = true
+

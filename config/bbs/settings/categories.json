@@ -1,0 +1,10 @@
+{
+    "models_player/alex": true,
+    "extra": true,
+    "mobs_animals": true,
+    "models_emoticons/alex": true,
+    "mobs_hostile": true,
+    "mobs_misc": false,
+    "recent": true,
+    "mobs_neutral": true
+}

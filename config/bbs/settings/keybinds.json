@@ -1,0 +1,131 @@
+{
+    "all": {
+        "next": [262],
+        "prev": [263],
+        "save": [83, 341],
+        "redo": [89, 341],
+        "paste": [86, 341],
+        "delete": [261],
+        "confirm": [257, 341],
+        "undo": [90, 341],
+        "presets": [86, 340, 341],
+        "keybinds": [298],
+        "deselect": [68, 341],
+        "copy": [67, 341],
+        "plause": [32],
+        "close": [256]
+    },
+    "keyframes": {
+        "maximize": [268],
+        "scale_time": [86],
+        "select_next": [93],
+        "select_prev": [91],
+        "interp": [84, 340],
+        "select_right": [46, 341],
+        "select_left": [44, 341],
+        "adjust_values": [78, 340],
+        "stack_keyframes": [66],
+        "select_all": [65, 341],
+        "select_same": [76],
+        "spread": [66, 342]
+    },
+    "flight": {
+        "flight_right": [68],
+        "flight_tilt_down": [264],
+        "flight_pan_left": [263],
+        "flight_pan_right": [262],
+        "flight_backward": [83],
+        "flight_forward": [87],
+        "flight_down": [340],
+        "flight_left": [65],
+        "flight_tilt_up": [265],
+        "flight_orbit": [90],
+        "flight_up": [32]
+    },
+    "texture_picker": {
+        "find": [70, 341]
+    },
+    "model_blocks": {
+        "toggle_rendering": [296],
+        "move_to": [71, 341],
+        "teleport": [84, 341]
+    },
+    "pixels": {
+        "swap": [88],
+        "pick": [82],
+        "fill": [66, 341]
+    },
+    "world": {
+        "cycle_panels": [258]
+    },
+    "transformations": {
+        "rotate": [82],
+        "toggle_local": [81],
+        "x": [88],
+        "scale": [83],
+        "y": [89],
+        "z": [90],
+        "toggle_axes": [297],
+        "translate": [71]
+    },
+    "recording_groups": {
+        "all": [49],
+        "extra_1": [53],
+        "extra_2": [54],
+        "only_position": [55],
+        "only_rotation": [56],
+        "left_stick": [50],
+        "outside": [82],
+        "right_stick": [51],
+        "pos_rot": [57],
+        "triggers": [52]
+    },
+    "camera": {
+        "flight": [70],
+        "looping": [76],
+        "clip_select_after": [46, 341],
+        "jump_backward": [264],
+        "add_at_tick": [65, 342],
+        "jump_forward": [265],
+        "add_on_top": [65, 340, 342],
+        "clip_cut": [67, 342],
+        "looping_set_max": [93],
+        "prev_clip": [263, 340],
+        "clip_shift": [83, 340],
+        "clip_enable": [74],
+        "clip_duration": [77],
+        "clip_select_before": [44, 341],
+        "add_at_cursor": [65, 340],
+        "looping_set_min": [91],
+        "next_clip": [262, 340],
+        "fade_in": [44],
+        "fade_out": [46]
+    },
+    "film_controller": {
+        "insert_frame": [73],
+        "restart_actions": [82, 342],
+        "next_replay": [267],
+        "move_replay_to_cursor": [71, 341],
+        "toggle_onion_skin": [79],
+        "toggle_replays": [344],
+        "toggle_orbit_mode": [292],
+        "cycle_editors": [96],
+        "prev_replay": [266],
+        "toggle_control": [72],
+        "start_recording": [82, 341]
+    },
+    "dashboard": {
+        "data_manager": [78],
+        "toggle": [290],
+        "utility_panel": [295]
+    },
+    "forms": {
+        "open_states_editor": [92],
+        "pick": [80],
+        "edit": [69],
+        "edit_alt": [69, 340],
+        "focus": [70, 341],
+        "pick_alt": [80, 340],
+        "pick_texture": [80, 340]
+    }
+}
