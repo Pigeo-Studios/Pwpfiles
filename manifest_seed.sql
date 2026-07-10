@@ -1,6 +1,7 @@
 ﻿INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
 ('.gitattributes', 9, '8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992', 'latest', 'game', NULL, NULL, FALSE),
 ('forge-installer.jar', 8835110, '0ebcf198609f925e0018842a79473ef74fda78534f86d82f2c0fdb26449c1fa4', 'latest', 'game', NULL, NULL, FALSE),
+('options.txt', 9908, 'eac1a2424e921f7884608515a5bb128bc1cce972c8ea78ee1eb22545b3f114d8', 'latest', 'game', NULL, NULL, FALSE),
 ('config/BerezkaAPI.toml', 1104, 'f7d2b698e098d03d6c01492610164bde95ae3cfccdcefe50c4001b409cf3e94d', 'latest', 'config', NULL, NULL, FALSE),
 ('config/connector.json', 144, '060e296a5fddce603e50034e3cdb6059c3a0e122d0aae3d85a0523341c82ea22', 'latest', 'config', NULL, NULL, FALSE),
 ('config/curios-client.toml', 683, '3903cd1fcf402a8c155f21bb581eb78d26e067537cb8af0b24bb8b8be63b3b30', 'latest', 'config', NULL, NULL, FALSE),
