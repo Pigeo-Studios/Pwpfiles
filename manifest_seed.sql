@@ -113,6 +113,7 @@
 ('mods/PassableFoliage-1.20.1-forge-8.2.1.jar', 30618, '15c215f1782c21f1ee1295eae3a5e96386eefc790247f5f32bd74893b967ec14', 'latest', 'mod', 'PassableFoliage-1.20.1-forge-8.2.1', NULL, FALSE),
 ('mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar', 181437, '90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691', 'latest', 'mod', 'player-animation-lib-forge-1.0.2-rc1+1.20', NULL, FALSE),
 ('mods/pwp-core-client-1.0.0.jar', 83685, '2ef13503cc15c6725fdf5fc003ef2b55e4ed6426ff962345b95f896dd403fd7e', 'latest', 'mod', 'pwp-core-client-1.0.0', NULL, FALSE),
+('mods/pwp-core-server-1.0.2.jar', 16468, '3a8bae874f534f75c6bc605cfe1d8c4561d6c67c3bd4bead1bb10c705bbd9e77', 'latest', 'mod', 'pwp-core-server-1.0.2', NULL, FALSE),
 ('mods/pwp-cosmetics-1.0.0.jar', 23302, '16040301a90511b31b8166cae0259b200b4e8943e089f87f8cacfac3685755ff', 'latest', 'mod', 'pwp-cosmetics-1.0.0', NULL, FALSE),
 ('mods/pwp-limits-1.0.2.jar', 13520, '501389963d4f144288c2a7fc9283f7f8c0032815d3b8d4fe85579f0a544f9a75', 'latest', 'mod', 'pwp-limits-1.0.2', NULL, FALSE),
 ('mods/pwp-lobby-1.0.0.jar', 92481, '10bbc99fe70fc904b81da9b5eb11184fede940f584e72fb154d2d51baece8a90', 'latest', 'mod', 'pwp-lobby-1.0.0', NULL, FALSE),
