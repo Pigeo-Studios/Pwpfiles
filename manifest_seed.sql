@@ -117,7 +117,7 @@
 ('mods/pwp-core-server-1.0.2.jar', 25063, '769140b06695409fb57274109806e4437290b3aba1b664f854c89d19bb0afdb2', 'latest', 'mod', 'pwp-core-server-1.0.2', NULL, FALSE),
 ('mods/pwp-cosmetics-1.0.0.jar', 23302, '08e60654e802eba051a4a4e095001704053c7238ee152223600d25d2bf3e0a58', 'latest', 'mod', 'pwp-cosmetics-1.0.0', NULL, FALSE),
 ('mods/pwp-limits-1.0.2.jar', 13520, '501389963d4f144288c2a7fc9283f7f8c0032815d3b8d4fe85579f0a544f9a75', 'latest', 'mod', 'pwp-limits-1.0.2', NULL, FALSE),
-('mods/pwp-lobby-1.0.0.jar', 92482, '9881c0050b1d6730073ee4d1d4ee588aff6f414957e02d7ef43d20137e3e1e9d', 'latest', 'mod', 'pwp-lobby-1.0.0', NULL, FALSE),
+('mods/pwp-lobby-1.0.0.jar', 92244, 'df64d48ac0571759a7e0eda41882f5f926921b60c592f4c4ee7fcfe12f98e4e1', 'latest', 'mod', 'pwp-lobby-1.0.0', NULL, FALSE),
 ('mods/pwp-medicine-1.0.3.jar', 97153, '1eb5c520f4c3102e3816fe26eb4cb1014c943f7a03aab2b7468ef4296b85e0e4', 'latest', 'mod', 'pwp-medicine-1.0.3', NULL, FALSE),
 ('mods/pwp-movement-1.0.0.jar', 6730, '19187b1c948ae3a15b7fbcaaa4bb375e537bd99f2b8e1edc86edf4236edf5827', 'latest', 'mod', 'pwp-movement-1.0.0', NULL, FALSE),
 ('mods/pwp-warfare-1.0.1.jar', 13057225, 'b66d2227b1a0c3c7316d880196df0f916c4b9344eb4236ce42a20d817377acae', 'latest', 'mod', 'pwp-warfare-1.0.1', NULL, FALSE),
