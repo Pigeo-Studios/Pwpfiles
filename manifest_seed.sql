@@ -113,7 +113,7 @@
 ('mods/ParCool-CompatibilityAddon-1.20.1-3.4.1.5-1.1.jar', 24155, 'f7cf79f065b076f03ca42e7abb33cb00aa3ed8ca0743296dc25549c2efbc3871', 'latest', 'mod', 'ParCool-CompatibilityAddon-1.20.1-3.4.1.5-1.1', NULL, FALSE),
 ('mods/PassableFoliage-1.20.1-forge-8.2.1.jar', 30618, '15c215f1782c21f1ee1295eae3a5e96386eefc790247f5f32bd74893b967ec14', 'latest', 'mod', 'PassableFoliage-1.20.1-forge-8.2.1', NULL, FALSE),
 ('mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar', 181437, '90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691', 'latest', 'mod', 'player-animation-lib-forge-1.0.2-rc1+1.20', NULL, FALSE),
-('mods/pwp-core-client-1.0.0.jar', 83937, 'ad0224116b8450029e58b384c2b8274f1423aeea0ff4dca9b9bca5f467b52e84', 'latest', 'mod', 'pwp-core-client-1.0.0', NULL, FALSE),
+('mods/pwp-core-client-1.0.0.jar', 84099, '1d0abda32afcef506d7e4afad26bf9a8b0803596fa8dbede1e3f37adb8124ee7', 'latest', 'mod', 'pwp-core-client-1.0.0', NULL, FALSE),
 ('mods/pwp-core-server-1.0.2.jar', 19384, '59f8c048a76e0679e0827854678c80422a527c2a76bb8f5cc2ea24383065fb30', 'latest', 'mod', 'pwp-core-server-1.0.2', NULL, FALSE),
 ('mods/pwp-cosmetics-1.0.0.jar', 23302, '16040301a90511b31b8166cae0259b200b4e8943e089f87f8cacfac3685755ff', 'latest', 'mod', 'pwp-cosmetics-1.0.0', NULL, FALSE),
 ('mods/pwp-limits-1.0.2.jar', 13520, '501389963d4f144288c2a7fc9283f7f8c0032815d3b8d4fe85579f0a544f9a75', 'latest', 'mod', 'pwp-limits-1.0.2', NULL, FALSE),
