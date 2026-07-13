@@ -113,7 +113,7 @@
 ('mods/ParCool-CompatibilityAddon-1.20.1-3.4.1.5-1.1.jar', 24155, 'f7cf79f065b076f03ca42e7abb33cb00aa3ed8ca0743296dc25549c2efbc3871', 'latest', 'mod', 'ParCool-CompatibilityAddon-1.20.1-3.4.1.5-1.1', NULL, FALSE),
 ('mods/PassableFoliage-1.20.1-forge-8.2.1.jar', 30618, '15c215f1782c21f1ee1295eae3a5e96386eefc790247f5f32bd74893b967ec14', 'latest', 'mod', 'PassableFoliage-1.20.1-forge-8.2.1', NULL, FALSE),
 ('mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar', 181437, '90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691', 'latest', 'mod', 'player-animation-lib-forge-1.0.2-rc1+1.20', NULL, FALSE),
-('mods/pwp-blast-protection-1.0.0.jar', 7089, '0e6d333967b92770b280295ac429e4c47fb25f850864e61572073b775d90d442', 'latest', 'mod', 'pwp-blast-protection-1.0.0', NULL, FALSE),
+('mods/pwp-blast-protection-1.0.0.jar', 7052, 'c837da9c3f363ad896e6acc81a92c80f0c401a314c07aa05097771b0e44e02d7', 'latest', 'mod', 'pwp-blast-protection-1.0.0', NULL, FALSE),
 ('mods/pwp-core-client-1.0.0.jar', 88688, 'b60f9778929b8fb7f5b406b50d3b68078a06e948ae85cbac4231397e9fd34862', 'latest', 'mod', 'pwp-core-client-1.0.0', NULL, FALSE),
 ('mods/pwp-core-server-1.0.2.jar', 30252, '6ebe5bb3d4a537f70bc35e97db26f1de52d82f0590541c93ad950001c9c3ee67', 'latest', 'mod', 'pwp-core-server-1.0.2', NULL, FALSE),
 ('mods/pwp-cosmetics-1.0.0.jar', 23302, '28798a5e94f7f2b412e9aac33193f0bfcf84a8750a4ec4fe7be204ddc44f622e', 'latest', 'mod', 'pwp-cosmetics-1.0.0', NULL, FALSE),
