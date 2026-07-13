@@ -1,0 +1,51 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 96
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone",
+      "count": 3
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:flint"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "minecraft:dried_kelp"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "rcp:t74"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

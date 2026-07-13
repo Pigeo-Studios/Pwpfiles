@@ -1,0 +1,43 @@
+{
+  "model":"rcp:ammo/backup26",
+  "texture":"rcp:ammo/uv/backup26",
+  "slot": "rcp:ammo/slot/backup26",
+  "shell":{
+    "model":"rcp:shell/backup26_shell",
+    "texture":"rcp:shell/backup26_shell"
+  },
+  "entity": {
+    "model": "rcp:ammo_entity/backup26",
+    "texture": "rcp:ammo_entity/backup26"
+  },
+  "particle": {
+    "name": "campfire_signal_smoke",
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "speed": 0.005,
+    "life_time": 50,
+    "count": 10
+  },
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "ground": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "fixed": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    }
+  }
+}

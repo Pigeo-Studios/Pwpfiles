@@ -1,0 +1,9 @@
+{
+  "slot": "kpp:attachment/slot/k7s",
+  "model": "kpp:attachment/k7s_geo",
+  "texture": "kpp:attachment/uv/k7s",
+  "sounds": {
+    "install": "kpp:attachments/muzzle_general",
+    "uninstall": "kpp:attachments/muzzle_general"
+  }
+}

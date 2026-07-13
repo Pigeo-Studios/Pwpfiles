@@ -1,0 +1,8 @@
+{
+  "name": "kpp.attachment.nemesisscope.name",
+  "tooltip": "kpp.attachment.nemesisscope.desc",
+  "display": "kpp:nemesisscope_display",
+  "data": "kpp:nemesisscope_data",
+  "type": "scope",
+  "sort": 100
+}

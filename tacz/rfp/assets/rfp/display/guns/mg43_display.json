@@ -1,0 +1,41 @@
+{
+    "model": "rfp:gun/mg43_geo",
+    "texture": "rfp:gun/uv/mg43",
+    "slot": "rfp:gun/slot/mg43",
+    "third_person_animation": "default",
+    "animation":"rfp:mg43",
+    "use_default_animation": "rifle",
+    "hud":"rfp:gun/hud/mg43",
+    "state_machine": "rfp:test_state_machine",
+    "transform": {
+        "scale": {
+          "thirdperson": [0.6, 0.6, 0.6],
+          "ground": [0.6, 0.6, 0.6],
+          "fixed": [1, 1, 1]
+        }
+      },
+    "sounds": {
+        "draw": "rfp:mg43/draw",
+        "dry_fire": "rfp:mg43/dry_fire",
+        "reload_empty": "rfp:mg43/reload_empty",
+        "reload_tactical": "rfp:mg43/reload_tactical",
+        "inspect": "rfp:mg43/inspect",
+        "inspect_empty": "rfp:mg43/inspect_empty",
+        "put_away": "rfp:mg43/put_away",
+        "shoot": "rfp:mg43/shoot",
+        "shoot_3p": "rfp:mg43/shoot_3p",
+        "silence":"rfp:mg43/silence",
+        "silence_3p":"rfp:mg43/silence_3p"
+    },
+    "muzzle_flash":{
+        "texture":"tacz:flash/common_muzzle_flash",
+        "scale":1
+    },
+    "shell": {
+        "initial_velocity": [-5, 0, 1],
+        "random_velocity": [1, 1, 0.25],
+        "acceleration": [0.0, -10, 0.0],
+        "angular_velocity": [360, 1200, 90],
+        "living_time": 3.0
+    }
+}

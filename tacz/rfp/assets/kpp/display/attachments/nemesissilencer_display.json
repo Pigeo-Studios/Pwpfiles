@@ -1,0 +1,9 @@
+{
+  "slot": "kpp:attachment/slot/nemesissilencer",
+  "model": "kpp:attachment/nemesissilencer_geo",
+  "texture": "kpp:attachment/uv/nemesissilencer",
+  "sounds": {
+    "install": "tacz:attachments/muzzle_general",
+    "uninstall": "tacz:attachments/muzzle_general"
+  }
+}

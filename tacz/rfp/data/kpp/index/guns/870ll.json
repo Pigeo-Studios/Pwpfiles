@@ -1,0 +1,9 @@
+{
+    "name": "kpp.gun.870ll.name",
+    "display": "kpp:870ll_display",
+    "data": "kpp:870ll_data",
+    "tooltip": "kpp.gun.870ll.desc",
+    "type": "shotgun",
+    "item_type": "modern_kinetic",
+    "sort": 300
+}

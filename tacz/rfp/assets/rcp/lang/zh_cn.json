@@ -1,0 +1,22 @@
+{
+  "pack.rcp.name": "TaCZ RABasya爆破包",
+  "pack.rcp.desc": "RABasya的火箭筒库，提供强大破拆力",
+  "rcp.gun.rpg26.name":"RPG-26",
+  "rcp.gun.rpg26.desc":"爆发超高的次抛火箭筒，提着它去和boss比划比划吧",
+  "rcp.ammo.backup26.name":"备用RPG26",
+  "rcp.ammo.backup26.desc":"一发RPG解决不了就用两发吧\n 仅创造模式可获得",
+  "rcp.ammo.rpg26msl.name":"RPG-26 72.5mm破甲火箭弹",
+  "rcp.ammo.rpg26msl.desc":"能给有装甲的敌人致命一击的铝筒\n 可在生存模式获得，在TACZ工作台将其装入空火箭筒",
+  "rcp.gun.at4.name":"AT4 M136",
+  "rcp.gun.at4.desc":"想知道他的口径？教你一招：用英语读一遍\"AT4\"三个字母",
+  "rcp.gun.t74.name":"七四式火焰喷射器",
+  "rcp.gun.t74.desc":"曾经的反人员工事利器，现已被狙击榴取代 \n 由 @赛博99A不会梦到电子577 预定，请勿商用",
+  "rcp.ammo.t74_fuel.name":"七四式背包式燃料罐",
+  "rcp.ammo.t74_fuel.desc":"火药推进式燃料喷射能让它喷射得更远，但是一次喷射的后座也够人吃一壶的\n 拥有双配方，原版配方和机械动力：柴油动力配方",
+  "rcp.ammo.backupat4.name":"备用AT4 M136",
+  "rcp.ammo.backupat4.desc":"一发RPG解决不了就用两发吧\n 仅创造模式可获得",
+  "rcp.ammo.at4msl.name":"AT4 M136 84mm破甲火箭弹",
+  "rcp.ammo.at4msl.desc":"能给有装甲的敌人致命一击的铝筒\n 可在生存模式获得，在TACZ工作台将其装入空火箭筒",
+  "rcp.gun.mk19.name":"MK19 自动榴弹发射器",
+  "rcp.gun.mk19.desc":"有我在摩加迪沙长跑就没那么多事情"
+}

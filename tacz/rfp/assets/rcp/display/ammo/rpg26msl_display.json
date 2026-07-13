@@ -1,0 +1,43 @@
+{
+  "model":"rcp:ammo/rpg26msl",
+  "texture":"rcp:ammo/uv/rpg26msl",
+  "slot": "rcp:ammo/slot/rpg26msl",
+  "shell":{
+    "model":"rcp:shell/rpg26msl_shell",
+    "texture":"rcp:shell/rpg26msl_shell"
+  },
+  "entity": {
+    "model": "rcp:ammo_entity/rpg26msl",
+    "texture": "rcp:ammo_entity/rpg26msl"
+  },
+  "particle": {
+    "name": "campfire_signal_smoke",
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "speed": 0.005,
+    "life_time": 50,
+    "count": 10
+  },
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "ground": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "fixed": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    }
+  }
+}

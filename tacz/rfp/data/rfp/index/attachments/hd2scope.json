@@ -1,0 +1,8 @@
+{
+  "name": "rfp.attachment.hd2scope.name",
+  "tooltip": "rfp.attachment.hd2scope.tooltip",
+  "display": "rfp:hd2scope_display",
+  "data": "rfp:hd2scope_data",
+  "type": "scope",
+  "sort": 199
+}

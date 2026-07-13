@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:dyes/green"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 192
+    },
+    {
+      "item": {
+        "tag": "forge:ores/netherite_scrap"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "rcp:mk19"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

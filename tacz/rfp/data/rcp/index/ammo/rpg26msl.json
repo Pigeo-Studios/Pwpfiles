@@ -1,0 +1,6 @@
+{
+  "name": "rcp.ammo.rpg26msl.name",
+  "display": "rcp:rpg26msl_display",
+  "tooltip": "rcp.ammo.rpg26msl.desc",
+  "stack_size": 10
+}

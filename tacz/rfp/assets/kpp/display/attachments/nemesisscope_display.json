@@ -1,0 +1,38 @@
+{
+  "slot": "kpp:attachment/slot/nemesisscope",
+  "model": "kpp:attachment/nemesisscope_geo",
+  "texture": "kpp:attachment/uv/nemesisscope",
+  "lod": {
+    "model": "kpp:attachment/lod/nemesisscope",
+    "texture": "kpp:attachment/lod/nemesisscope"
+  },
+  "zoom": [
+    8,
+    12
+  ],
+  "scope": true,
+  "fov": 25.0,
+
+  "text_show": {
+    "range_text": {
+      "scale": 0.09375,
+      "align": "right",
+      "shadow": false,
+      "color": "#00ffff",
+      "light": 15,
+      "text": "%gunsmithlib:rangefinder_result%"
+    },
+    "rangefinder_text":{
+      "scale": 0.09375,
+      "align": "right",
+      "shadow": false,
+      "color": "#ffffff",
+      "light": 15,
+      "text": "kpp:text.nemesisrangeing.name"
+    }
+  },
+  "sounds": {
+    "install": "tacz:attachments/scope_general_d",
+    "uninstall": "tacz:attachments/scope_general_d"
+  }
+}

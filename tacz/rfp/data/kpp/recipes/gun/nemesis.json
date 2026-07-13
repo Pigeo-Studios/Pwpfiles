@@ -1,0 +1,55 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "tacz:ai_awp"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:repeater"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:lodestone"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "kpp:nemesisscope"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "kpp:nemesissilencer"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+  "id": "kpp:nemesis",
+  "attachments": {
+       "muzzle": "kpp:nemesissilencer",
+       "scope":"kpp:nemesisscope"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

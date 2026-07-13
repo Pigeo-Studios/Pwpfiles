@@ -1,0 +1,27 @@
+{
+  "slot": "rfp:attachment/slot/ta648_rmr",
+  "model": "rfp:attachment/ta648_rmr",
+  "texture": "rfp:attachment/uv/ta648_rmr",
+  "lod": {
+    "model": "rfp:attachment/lod/ta648_rmr",
+    "texture": "rfp:attachment/lod/ta648_rmr"
+  },
+  "zoom": [
+    6,
+    1.25
+  ],
+  "views": [
+    2,
+    1
+  ],
+  "views_fov": [
+    50.0,
+    60.0
+  ],
+  "scope": true,
+  "sight": true,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_c",
+    "uninstall": "tacz:attachments/scope_general_c"
+  }
+}

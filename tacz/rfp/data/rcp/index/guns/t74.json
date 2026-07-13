@@ -1,0 +1,9 @@
+{
+    "name": "rcp.gun.t74.name",
+    "display": "rcp:t74_display",
+    "data": "rcp:t74_data",
+    "type": "shotgun",
+    "item_type": "modern_kinetic",
+    "sort": 10,
+    "tooltip":"rcp.gun.t74.desc"
+}

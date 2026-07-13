@@ -1,0 +1,31 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "rcp:at4",
+          "GunCurrentAmmoCount": 0
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "rcp:at4msl"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "rcp:at4",
+    "ammo_count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

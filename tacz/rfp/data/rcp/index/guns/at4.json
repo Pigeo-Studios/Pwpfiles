@@ -1,0 +1,9 @@
+{
+    "name": "rcp.gun.at4.name",
+    "display": "rcp:at4_display",
+    "data": "rcp:at4_data",
+    "type": "rpg",
+    "item_type": "modern_kinetic",
+    "sort": 20,
+    "tooltip":"rcp.gun.at4.desc"
+}

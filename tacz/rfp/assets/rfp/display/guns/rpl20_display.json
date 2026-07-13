@@ -1,0 +1,34 @@
+{
+    "model": "rfp:gun/rpl20_geo",
+    "texture": "rfp:gun/uv/rpl20",
+    "slot": "rfp:gun/slot/rpl20",
+    "third_person_animation": "default",
+    "animation":"rfp:rpl20",
+    "use_default_animation": "rifle",
+    "hud":"rfp:gun/hud/rpl20",
+    "state_machine": "rfp:test_rpl20_state_machine",
+    "sounds": {
+        "draw": "rfp:rpl20/draw",
+        "dry_fire": "rfp:rpl20/dry_fire",
+        "reload_empty": "rfp:rpl20/reload_empty",
+        "reload_tactical": "rfp:rpl20/reload_tactical",
+        "inspect": "rfp:rpl20/inspect",
+        "inspect_empty": "rfp:rpl20/inspect_empty",
+        "put_away": "rfp:rpl20/put_away",
+        "shoot": "rfp:rpl20/shoot",
+        "shoot_3p": "rfp:rpl20/shoot_3p",
+        "silence":"rfp:rpl20/silence",
+        "silence_3p":"rfp:rpl20/silence_3p"
+    },
+    "muzzle_flash":{
+        "texture":"rfp:flash/muzzle_flash",
+        "scale":1
+    },
+    "shell": {
+        "initial_velocity": [-5, 2, 1],
+        "random_velocity": [1, 1, 0.25],
+        "acceleration": [0.0, -10, 0.0],
+        "angular_velocity": [360, -1200, 90],
+        "living_time": 3.0
+    }
+}

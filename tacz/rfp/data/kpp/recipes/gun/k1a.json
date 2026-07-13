@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/light_gray"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/black"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:dried_kelp"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "kpp:k1a"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "group": "explosives",
+    "id": "rcp:rpg26msl",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 40
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/light_gray"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/black"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "kpp:k7"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

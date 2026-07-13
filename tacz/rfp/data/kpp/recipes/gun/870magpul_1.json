@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 26
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "kpp:870magpul_1"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

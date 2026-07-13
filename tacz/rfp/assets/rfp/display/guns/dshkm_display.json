@@ -1,0 +1,46 @@
+{
+    "model": "rfp:gun/dshkm_geo",
+    "texture": "rfp:gun/uv/dshkm",
+    "slot": "rfp:gun/slot/dshkm",
+    "third_person_animation": "default",
+    "animation":"rfp:dshkm",
+    "use_default_animation": "rifle",
+    "hud":"rfp:gun/hud/dshkm",
+    "state_machine": "rfp:test_state_machine",
+    "sounds": {
+        "draw": "rfp:dshkm/draw",
+        "dry_fire": "rfp:dshkm/dry_fire",
+        "reload_empty": "rfp:dshkm/reload_empty",
+        "reload_tactical": "rfp:dshkm/reload_tactical",
+        "inspect": "rfp:dshkm/inspect",
+        "inspect_empty": "rfp:dshkm/inspect_empty",
+        "put_away": "rfp:dshkm/put_away",
+        "shoot": "rfp:dshkm/shoot",
+        "shoot_3p": "rfp:dshkm/shoot_3p"
+    },
+    "muzzle_flash":{
+        "texture":"rfp:flash/muzzle_flash",
+        "scale":1.5
+    },
+    "shell": {
+        "initial_velocity": [0, -2, 0],
+        "random_velocity": [1, 1, 0.25],
+        "acceleration": [0.0, -10, 0.0],
+        "angular_velocity": [360, -1200, 90],
+        "living_time": 3.0
+    },
+    "ammo": {
+        "tracer_color": "#ef3846",
+        "particle": {
+          "name": "crimson_spore",
+          "delta": [
+            0,
+            0,
+            0
+          ],
+          "speed": 0,
+          "life_time": 1,
+          "count": 3
+        }
+}
+}

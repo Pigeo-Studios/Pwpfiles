@@ -1,0 +1,9 @@
+{
+  "name": "rfp.attachment.dbala2.name",
+  "display": "rfp:dbala2_display",
+  "tooltip": "rfp.attachment.dbala2.tooltip",
+  "data": "rfp:dbala2_data",
+  "type": "laser",
+  "sort": 200,
+  "hidden": false
+}

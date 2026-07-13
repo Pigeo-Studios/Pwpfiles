@@ -1,0 +1,8 @@
+{
+  "hidden": false,
+  "name": "rfp.attachment.ta648_rmr.name",
+  "display": "rfp:ta648_rmr_display",
+  "data": "rfp:ta648_rmr_data",
+  "type": "scope",
+  "sort": 200
+}

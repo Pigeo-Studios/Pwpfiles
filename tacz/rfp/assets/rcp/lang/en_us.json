@@ -1,0 +1,22 @@
+{
+  "pack.rcp.name": "TaCZ RABasya combustible gunpack",
+  "pack.rcp.desc": "RABasya's rocket launchers collection with high explosives",
+  "rcp.gun.rpg26.name":"RPG-26",
+  "rcp.gun.rpg26.desc":"EAT with deadly burst damage, use it to deal with boss",
+  "rcp.ammo.backup26.name":"backup RPG-26 EAT",
+  "rcp.ammo.backup26.desc":"use 2 RPGs when facing situations can't be one-RPG-ed\n only in creative mode",
+  "rcp.ammo.rpg26msl.name":"RPG-26 72.5mm HEAT rocket",
+  "rcp.ammo.rpg26msl.desc":"An aluminium column that bring death to armored hostles\n available in survival，use TaCZ workbench to refill empty EAT.",
+  "rcp.gun.at4.name":"AT4 M136",
+  "rcp.gun.at4.desc":"Wonder its caliber? just read \"AT4\" by letter.",
+  "rcp.gun.t74.name":"Type74 flamethrower",
+  "rcp.gun.t74.desc":"Former edge tool for anti-personnel fortification purpose, now has been replaced by QLU-11 grenade launcher \n commission work by , do not use commercially",
+  "rcp.ammo.t74_fuel.name":"Type74 Backpack fuel tank",
+  "rcp.ammo.t74_fuel.desc":"Gunpowder propelled fuel ejection allows it to shoot further, but the recoil from one spray is enough for one's shoulder to pain a lot\n dual-recipe，original minecraft recipe and Create:Dieselgenerators recipe",
+  "rcp.ammo.backupat4.name":"Backup AT4 M136",
+  "rcp.ammo.backupat4.desc":"use 2 RPGs when facing situations can't be one-RPG-ed\n only in creative mode",
+  "rcp.ammo.at4msl.name":"AT4 M136 HEAT rocket",
+  "rcp.ammo.at4msl.desc":"An aluminium column that bring death to armored hostles\n available in survival，use TaCZ workbench to refill empty EAT.",
+  "rcp.gun.mk19.name":"MK19 AGL",
+  "rcp.gun.mk19.desc":"Mop up any troublemaker with the Mark 19"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "k16.attachment.pas21k.name",
+  "tooltip": "k16.attachment.pas21k.tooltip",
+  "display": "k16:pas21k_display",
+  "data": "k16:pas21k_data",
+  "type": "scope"
+}

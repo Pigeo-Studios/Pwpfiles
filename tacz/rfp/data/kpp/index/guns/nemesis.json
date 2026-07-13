@@ -1,0 +1,8 @@
+{
+  "name": "kpp.gun.nemesis.name",
+  "display": "kpp:nemesis_display",
+  "data": "kpp:nemesis_data",
+  "tooltip": "kpp.gun.nemesis.desc",
+  "type": "sniper",
+  "sort": 300
+}

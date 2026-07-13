@@ -1,0 +1,8 @@
+{
+  "pack.k16.name": "TaCZ K-16 GPMG gunpack",
+  "pack.k16.desc": "test description",
+  "k16.gun.k16.name": "K-16",
+  "k16.gun.k16.desc":"Someone's magic staff",
+  "k16.attachment.pas21k.name":"PAS-21 K",
+  "k16.attachment.pas21k.tooltip":"scope for K-16"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "rcp.ammo.backupat4.name",
+  "display": "rcp:backupat4_display",
+  "tooltip": "rcp.ammo.backupat4.desc",
+  "stack_size": 5
+}

@@ -1,0 +1,8 @@
+{
+  "name": "kpp.gun.k1a.name",
+  "display": "kpp:k1a_display",
+  "data": "kpp:k1a_data",
+  "type": "rifle",
+  "tooltip": "kpp.gun.k1a.desc",
+  "sort": 300
+}

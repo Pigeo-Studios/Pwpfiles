@@ -1,0 +1,8 @@
+{
+  "name": "rfp.gun.m249_t.name",
+  "display": "rfp:m249_t_display",
+  "data": "rfp:m249_t_data",
+  "tooltip": "rfp.gun.m249_t.desc",
+  "type": "mg",
+  "sort": 100
+}

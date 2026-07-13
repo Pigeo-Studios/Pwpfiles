@@ -1,0 +1,29 @@
+{
+  "model": "kpp:ammo/12ll",
+  "texture": "kpp:ammo/uv/12ll",
+  "slot": "kpp:ammo/slot/12ll",
+  "shell": {
+    "model": "kpp:shell/12ll_shell",
+    "texture": "kpp:shell/12ll_shell"
+  },
+  "tracer_color": "#FF3030",
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "ground": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "fixed": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    }
+  }
+}

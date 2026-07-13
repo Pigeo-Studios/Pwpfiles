@@ -1,0 +1,51 @@
+{
+    "model": "rcp:gun/t74_geo",
+    "texture": "rcp:gun/uv/t74",
+    "slot": "rcp:gun/slot/t74",
+    "lod": {
+        "model": "rcp:gun/lod/t74_lod",
+        "texture": "rcp:gun/uv/t74"
+    },
+    "third_person_animation": "default",
+    "animation":"rcp:t74",
+    "use_default_animation": "rifle",
+    "hud":"rcp:gun/hud/t74",
+    "sounds": {
+        "draw": "rcp:t74/draw",
+        "dry_fire": "rcp:t74/dry_fire",
+        "reload_empty": "rcp:t74/reload_empty",
+        "reload_tactical": "rcp:t74/reload_tactical",
+        "inspect": "rcp:t74/inspect",
+        "inspect_empty": "rcp:t74/inspect_empty",
+        "put_away": "rcp:t74/put_away",
+        "shoot": "rcp:t74/shoot",
+        "shoot_3p": "rcp:t74/shoot_3p"
+    },
+    "muzzle_flash":{
+        "texture":"rcp:flash/muzzle_flash",
+        "scale":3
+    },
+    "ammo_count_style": "percent",
+    "shell": {
+        "initial_velocity": [0, -2, 0],
+        "random_velocity": [1, 1, 0.25],
+        "acceleration": [0.0, -10, 0.0],
+        "angular_velocity": [360, -1200, 90],
+        "living_time": 3.0
+    },   
+     "ammo": {
+        "tracer_color": "#ef3846",
+        "particle": {
+            "name": "lava",
+            "delta": [
+              0,
+              0,
+              0
+            ],
+            "speed": 0.03,
+            "life_time": 5,
+            "count": 2
+        }
+}
+    
+}

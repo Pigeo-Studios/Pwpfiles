@@ -1,0 +1,9 @@
+{
+    "name": "kpp.gun.870magpul_1.name",
+    "display": "kpp:870magpul_1_display",
+    "data": "kpp:870magpul_data",
+    "tooltip": "kpp.gun.870magpul_1.desc",
+    "type": "shotgun",
+    "item_type": "modern_kinetic",
+    "sort": 300
+}

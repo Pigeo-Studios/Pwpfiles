@@ -1,0 +1,39 @@
+{
+  "model":"rcp:ammo/at4msl",
+  "texture":"rcp:ammo/uv/at4msl",
+  "slot": "rcp:ammo/slot/at4msl",
+  "entity": {
+    "model": "rcp:ammo_entity/at4msl",
+    "texture": "rcp:ammo_entity/at4msl"
+  },
+  "particle": {
+    "name": "campfire_signal_smoke",
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "speed": 0.005,
+    "life_time": 50,
+    "count": 10
+  },
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "ground": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "fixed": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    }
+  }
+}

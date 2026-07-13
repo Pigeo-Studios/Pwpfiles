@@ -1,0 +1,15 @@
+{
+  "slot": "rfp:attachment/slot/1p87",
+  "model": "rfp:attachment/1p87",
+  "texture": "rfp:attachment/uv/1p8790",
+  "zoom": [
+    1.25
+  ],
+  "scope": false,
+  "sight": true,
+  "fov": 65.0,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_b",
+    "uninstall": "tacz:attachments/scope_general_b"
+  }
+}

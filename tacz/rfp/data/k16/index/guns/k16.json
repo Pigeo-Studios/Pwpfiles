@@ -1,0 +1,9 @@
+{
+    "name": "k16.gun.k16.name",
+    "display": "k16:k16_display",
+    "data": "k16:k16_data",
+    "type": "mg",
+    "item_type": "modern_kinetic",
+    "sort": 101,
+    "tooltip":"k16.gun.k16.desc"
+}

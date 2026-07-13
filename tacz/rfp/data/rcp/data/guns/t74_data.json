@@ -1,0 +1,149 @@
+{
+  "ammo": "rcp:t74_fuel",
+  "rpm": 700,
+  "bullet": {
+    "life": 3,
+    "bullet_amount": 12,
+    "damage": 96,
+    "extra_damage": {
+      "armor_ignore": 0.8,
+      "head_shot_multiplier": 1,
+      "damage_adjust": [
+        {
+          "distance": 25,
+          "damage": 96
+        },
+        {
+          "distance": 50,
+          "damage": 7.8
+        },
+        {
+          "distance": "infinite",
+          "damage": 60
+        }
+      ]
+    },
+    "speed": 70,
+    "gravity": 0.03,
+    "knockback": 0.1,
+    "friction": 0.01,
+    "ignite": {
+      "entity": true,
+      "block": true
+    },
+    "ignite_entity_time": 8,
+    "pierce": 5
+  },
+    "heat":  {
+    // 过热上限
+    "max": 50,
+    // 每发子弹过热值
+    "per_shot": 2.5,
+    // 冷却倍率，过热值的减少速度会随着时间增加
+    // t时间(秒)内可以冷却的过热值可以参考: max = cooling_multiplier * t^2
+    "cooling_multiplier": 5,
+    // 冷却延迟，ms
+    "cooling_delay": 500,
+    // 完全过热后，开始过热的延迟时间，ms
+    "over_heat_time": 1000,
+    // 以下将在使用过热进度(0-1)在最小值和最大值之间线性插值，然后与原始数值相乘
+    // 最小不准确度影响
+    "min_inaccuracy": 1,
+    // 最大不准确度影响
+    "max_inaccuracy": 1.2,
+    // 最小射速影响
+    "min_rpm_mod": 1,
+    // 最大射速影响
+    "max_rpm_mod": 1
+  },
+  "ammo_amount": 30,
+  "extended_mag_ammo_amount": [
+    37,
+    45,
+    60
+  ],
+  "bolt": "open_bolt",
+  "reload": {
+    "type": "fuel",
+    "feed": {
+      "empty": 3.3,
+      "tactical": 3.3
+    },
+    "cooldown": {
+      "empty": 4.13,
+      "tactical": 4.13
+    }
+  },
+  "draw_time": 1.2,
+  "put_away_time": 1.2,
+  "aim_time": 0.15,
+  "sprint_time": 0.21,
+  "weight": 25,
+  "movement_speed": {
+    "base": 0.1,
+    "aim": -0.15,
+    "reload": 0
+  },
+
+  "fire_mode": [
+    "burst"
+  ],
+  "burst_data": {
+    "continuous_shoot": true,
+    "count": 15,
+    "bpm": 900,
+    "min_interval": 0.3
+  },
+  "allow_attachment_types": [
+    "extended_mag"
+  ],
+  "recoil": {
+    "pitch": [
+      {
+        "time": 0,
+        "value": [ 0, 0 ]
+      },
+      {
+        "time": 0.07,
+        "value": [ 3.5, 5.5 ]
+      },
+      {
+        "time": 0.15,
+        "value": [ 6.5, 7.5 ]
+      },
+      {
+        "time": 0.35,
+        "value": [ -0.15, 0.15 ]
+      },
+      {
+        "time": 0.5,
+        "value": [ 0, 0 ]
+      }
+    ],
+    "yaw": [
+      {
+        "time": 0,
+        "value": [ -0.75, 0.75 ]
+      },
+      {
+        "time": 0.3,
+        "value": [ -0.75, 0.75 ]
+      },
+      {
+        "time": 0.5,
+        "value": [ 0.15, 0.15 ]
+      },
+      {
+        "time": 0.6,
+        "value": [ 0, 0 ]
+      }
+    ]
+  },
+  "inaccuracy": {
+    "stand": 7.66,
+    "move": 7.66,
+    "sneak": 7.66,
+    "lie": 7.66,
+    "aim": 7.66
+  }
+}

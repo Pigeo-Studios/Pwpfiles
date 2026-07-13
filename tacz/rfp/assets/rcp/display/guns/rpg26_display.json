@@ -1,0 +1,31 @@
+{
+    "model": "rcp:gun/rpg26_geo",
+    "texture": "rcp:gun/uv/rpg26",
+    "slot": "rcp:gun/slot/rpg26",
+    "third_person_animation": "default",
+    "animation":"rcp:rpg26",
+    "use_default_animation": "rifle",
+    "hud":"rcp:gun/hud/rpg26",
+    "sounds": {
+        "draw": "rcp:rpg26/draw",
+        "dry_fire": "rcp:rpg26/dry_fire",
+        "reload_empty": "rcp:rpg26/reload_empty",
+        "reload_tactical": "rcp:rpg26/reload_tactical",
+        "inspect": "rcp:rpg26/inspect",
+        "inspect_empty": "rcp:rpg26/inspect_empty",
+        "put_away": "rcp:rpg26/put_away",
+        "shoot": "rcp:rpg26/shoot",
+        "shoot_3p": "rcp:rpg26/shoot_3p"
+    },
+    "muzzle_flash":{
+        "texture":"rcp:flash/muzzle_flash",
+        "scale":3
+    },
+    "shell": {
+        "initial_velocity": [0, -2, 0],
+        "random_velocity": [1, 1, 0.25],
+        "acceleration": [0.0, -10, 0.0],
+        "angular_velocity": [360, -1200, 90],
+        "living_time": 3.0
+    }
+}

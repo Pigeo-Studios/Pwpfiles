@@ -1,0 +1,27 @@
+{
+  "slot": "rfp:ammo/slot/127x108",
+  "shell":{
+    "model":"rfp:shell/127x108_shell",
+    "texture":"rfp:shell/127x108_shell"
+  },
+  "tracer_color": "#ef3846",
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "ground": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "fixed": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    }
+  }
+}

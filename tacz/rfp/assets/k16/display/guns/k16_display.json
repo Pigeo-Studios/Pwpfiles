@@ -1,0 +1,40 @@
+{
+    "model": "k16:gun/k16_geo",
+    "texture": "k16:gun/uv/k16",
+    "slot": "k16:gun/slot/k16",
+    "third_person_animation": "default",
+    "animation":"k16:k16",
+    "use_default_animation": "rifle",
+    "hud":"k16:gun/hud/k16",
+    "state_machine": "k16:k16_state_machine",
+    "transform": {
+        "scale": {
+          "thirdperson": [0.6, 0.6, 0.6],
+          "ground": [0.6, 0.6, 0.6],
+          "fixed": [1, 1, 1]
+        }
+      },
+    "sounds": {
+        "draw": "k16:k16/draw",
+        "reload_empty": "k16:k16/reload_empty",
+        "reload_tactical": "k16:k16/reload_tactical",
+        "inspect": "k16:k16/inspect",
+        "inspect_empty": "k16:k16/inspect_empty",
+        "put_away": "k16:k16/put_away",
+        "shoot": "k16:k16/shoot",
+        "shoot_3p": "k16:k16/shoot_3p",
+        "silence":"k16:k16/silence",
+        "silence_3p":"k16:k16/silence_3p"
+    },
+    "muzzle_flash":{
+        "texture":"tacz:flash/common_muzzle_flash",
+        "scale":1
+    },
+    "shell": {
+        "initial_velocity": [0, -2, 0],
+        "random_velocity": [1, 1, 0.25],
+        "acceleration": [0.0, -10, 0.0],
+        "angular_velocity": [360, -1200, 90],
+        "living_time": 3.0
+    }
+}

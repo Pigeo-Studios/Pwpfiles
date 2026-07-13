@@ -1,0 +1,142 @@
+{
+  "ammo": "tacz:338",
+  "ammo_amount": 5,
+  "extended_mag_ammo_amount": [
+    6,
+    7,
+    8
+  ],
+  "bolt": "manual_action",
+  "rpm": 200,
+  "bullet": {
+    "life": 0.9,
+    "bullet_amount": 1,
+    "damage": 45,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.60,
+      "head_shot_multiplier": 2,
+      "damage_adjust": [
+        {"distance": 80, "damage": 45},
+        {"distance": 160, "damage": 40},
+        {"distance": "infinite", "damage": 30}
+      ]
+    },
+    "speed": 575,
+    "gravity": 0.15,
+    "knockback": 0,
+    "friction": 0.015,
+    "ignite": false,
+    "pierce": 4,
+    "explosion": {
+      "explode": false,
+      "damage": 60,
+      "radius": 1.25,
+      "knockback": true,
+      "delay": 1
+    }
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 2.85,
+      "tactical": 2.05
+    },
+    "cooldown": {
+      "empty": 3.25,
+      "tactical": 2.25
+    }
+  },
+  "draw_time": 3,
+  "put_away_time": 3.25,
+  "aim_time": 0.25,
+  "sprint_time": 0.2,
+  "bolt_action_time": 0.9,
+  "weight": 6.9,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.4,
+    "reload": -0.2
+  },
+  "charging": {
+    "semi": {
+      // 蓄力模式
+      // auto - 按住扳机蓄力，蓄满后自动发射
+      // hold - 按住扳机蓄力，直到松开扳机才发射（如果满足阈值）
+      // delay - 按下扳机后自动进行蓄力，蓄满后自动发射，无法取消
+      "type": "hold",
+      // 按下/松开扳机时每tick蓄力和减少的进度（非负）
+      "increase_per_tick": 0.05,
+      "decrease_per_tick": 0.05,
+      // 开火后削减的蓄力进度
+      // 开火模式为全自动且蓄力模式为auto时，如果不重置的话第一发完成蓄力后可以按住扳机持续开火
+      // 蓄力模式为hold时，如果开火后蓄力进度仍然大于阈值，即使松开扳机也会不受控制的持续开火（如果大于阈值的话不会触发decrease_per_tick）
+      // 蓄力模式为delay时，此值无效（始终重置为0）
+      "decrease_on_fire": 2,
+      // 最大蓄力进度
+      "max_charge": 2,
+      // 开火阈值，蓄力至少进度达到此值时允许开火(仅hold模式生效)
+      "fire_threshold": 0.01,
+      "charge_during_cooldown": true
+    }
+  },
+  
+  "crawl_recoil_multiplier": 0.25,
+  "fire_mode": [
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0, 0]},
+      {"time": 1, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 1.5, "value": [0, 0]},
+      {"time": 1.82, "value": [0, 0]},
+      {"time": 2.07, "value": [0, 0]}
+    ]
+  },
+
+
+  "inaccuracy": {
+    "stand": 5,
+    "move": 5.5,
+    "sneak": 3,
+    "lie": 2.5,
+    "aim": 0.05
+  },
+  // 近战相关
+  "melee": {
+    // 枪械距离参数，用来延升近战攻击范围
+    // 会与刺刀等配件的距离做加和
+    "distance": 1,
+    // 使用时的冷却时间
+    "cooldown": 1.0,
+    // 默认近战数据，会被配件的数据替换掉
+    "default": {
+      // 动画类型：没有枪托的为 melee_push，有枪托的为 melee_stock
+      "animation_type": "melee_stock",
+      // 刺刀距离参数，枪械里还有个刺刀攻击距离参数，两者做加和
+      "distance": 1.25,
+      // 刺刀范围角度
+      "range_angle": 30,
+      // 伤害值
+      "damage": 5,
+      // 击退效果
+      "knockback": 1,
+      // 前摇时长，单位：秒
+      "prep": 0.1
+    }
+  },
+  "builtin_attachments": {
+    "scope": "kpp:nemesisscope",
+    "laser": "kpp:nemesislaser",
+    "grip": "kpp:nemesisafg",
+    "muzzle": "kpp:nemesissilencer"
+  },
+  "script": "kpp:nemesis_logic",
+  "allow_attachment_types": [
+    "scope",
+    "muzzle"
+  ]
+}

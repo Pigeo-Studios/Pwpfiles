@@ -1,0 +1,60 @@
+{
+  "model": "kpp:gun/k7_geo",
+  "texture": "kpp:gun/uv/k7",
+  "lod": {
+    "model": "kpp:gun/lod/k7",
+    "texture": "kpp:gun/lod/k7"
+  },
+  "hud": "kpp:gun/hud/k7",
+  "slot": "kpp:gun/slot/k7",
+  "animation": "kpp:k7",
+  "state_machine": "kpp:k7_state_machine",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0.75
+  },
+  "iron_zoom": 1.33,
+  "zoom_model_fov": 65,
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "kpp:k7/shoot",
+    "shoot_3p": "kpp:k7/shoot_3p",
+    "reload_empty": "kpp:k7/reload_empty",
+    "reload_tactical": "kpp:k7/reload_tactical",
+    "inspect": "kpp:k7/inspect",
+    "inspect_empty": "kpp:k7/inspect_empty",
+    "draw": "kpp:k7/draw",
+    "put_away": "kpp:k7/put_away",
+    "silence": "kpp:k7/silence",
+    "silence_3p": "kpp:k7/silence_3p",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_02"
+  },
+  "offhand_show": {
+    "pos": [1, 19, 4],
+    "rotate": [0, 0, 50],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-1, 19, 3],
+      "rotate": [-180, 0, 130],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

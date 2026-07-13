@@ -1,0 +1,8 @@
+{
+  "name": "kpp.gun.k7.name",
+  "display": "kpp:k7_display",
+  "data": "kpp:k7_data",
+  "type": "smg",
+  "tooltip": "kpp.gun.k7.desc",
+  "sort": 300
+}

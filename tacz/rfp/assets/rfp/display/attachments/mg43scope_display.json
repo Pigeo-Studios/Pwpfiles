@@ -1,0 +1,14 @@
+{
+  "slot": "rfp:attachment/slot/mg43scope",
+  "model": "rfp:attachment/mg43scope",
+  "texture": "rfp:attachment/uv/mg43scope",
+  "zoom": [
+    3.4
+  ],
+  "scope": true,
+  "fov": 70.0,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_b",
+    "uninstall": "tacz:attachments/scope_general_b"
+  }
+}

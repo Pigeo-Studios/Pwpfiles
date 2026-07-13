@@ -1,0 +1,44 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:dyes/green"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/brown"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:flint"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "rcp:at4"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,32 @@
+{
+    "model": "rcp:gun/mk19_geo",
+    "texture": "rcp:gun/uv/mk19",
+    "slot": "rcp:gun/slot/mk19",
+    "third_person_animation": "default",
+    "animation":"rcp:mk19",
+    "use_default_animation": "rifle",
+    "hud":"rcp:gun/hud/mk19",
+    "state_machine": "rcp:mk19_state_machine",
+    "sounds": {
+        "draw": "rcp:mk19/draw",
+        "dry_fire": "rcp:mk19/dry_fire",
+        "reload_empty": "rcp:mk19/reload_empty",
+        "reload_tactical": "rcp:mk19/reload_tactical",
+        "inspect": "rcp:mk19/inspect",
+        "inspect_empty": "rcp:mk19/inspect_empty",
+        "put_away": "rcp:mk19/put_away",
+        "shoot": "rcp:mk19/shoot",
+        "shoot_3p": "rcp:mk19/shoot_3p"
+    },
+    "muzzle_flash":{
+        "texture":"rcp:flash/muzzle_flash",
+        "scale":1.5
+    },
+    "shell": {
+        "initial_velocity": [0, -2, 0],
+        "random_velocity": [1, 1, 0.25],
+        "acceleration": [0.0, -10, 0.0],
+        "angular_velocity": [360, -1200, 90],
+        "living_time": 3.0
+    }
+}

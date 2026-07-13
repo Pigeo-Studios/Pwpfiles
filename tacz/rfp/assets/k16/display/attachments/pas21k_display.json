@@ -1,0 +1,14 @@
+{
+  "slot": "k16:attachment/slot/1",
+  "model": "k16:attachment/pas21k",
+  "texture": "k16:attachment/uv/1",
+  "zoom": [
+    3.4
+  ],
+  "scope": true,
+  "fov": 45,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_b",
+    "uninstall": "tacz:attachments/scope_general_b"
+  }
+}

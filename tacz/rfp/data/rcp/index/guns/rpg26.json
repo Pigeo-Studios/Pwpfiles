@@ -1,0 +1,9 @@
+{
+    "name": "rcp.gun.rpg26.name",
+    "display": "rcp:rpg26_display",
+    "data": "rcp:rpg26_data",
+    "type": "rpg",
+    "item_type": "modern_kinetic",
+    "sort": 10,
+    "tooltip":"rcp.gun.rpg26.desc"
+}

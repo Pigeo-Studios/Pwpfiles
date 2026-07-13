@@ -1,0 +1,7 @@
+{
+  "name": "kpp.attachment.nemesislaser",
+  "display": "kpp:nemesislaser_display",
+  "data": "kpp:nemesislaser_data",
+  "type": "laser",
+  "sort": 10
+}

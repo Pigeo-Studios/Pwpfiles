@@ -1,0 +1,31 @@
+{
+    "model": "rcp:gun/at4_geo",
+    "texture": "rcp:gun/uv/at4",
+    "slot": "rcp:gun/slot/at4",
+    "third_person_animation": "default",
+    "animation":"rcp:at4",
+    "use_default_animation": "rifle",
+    "hud":"rcp:gun/hud/at4",
+    "sounds": {
+        "draw": "rcp:at4/draw",
+        "dry_fire": "rcp:at4/dry_fire",
+        "reload_empty": "rcp:at4/reload_empty",
+        "reload_tactical": "rcp:at4/reload_tactical",
+        "inspect": "rcp:at4/inspect",
+        "inspect_empty": "rcp:at4/inspect_empty",
+        "put_away": "rcp:at4/put_away",
+        "shoot": "rcp:at4/shoot",
+        "shoot_3p": "rcp:at4/shoot_3p"
+    },
+    "muzzle_flash":{
+        "texture":"rcp:flash/muzzle_flash",
+        "scale":3
+    },
+    "shell": {
+        "initial_velocity": [0, -2, 0],
+        "random_velocity": [1, 1, 0.25],
+        "acceleration": [0.0, -10, 0.0],
+        "angular_velocity": [360, -1200, 90],
+        "living_time": 3.0
+    }
+}

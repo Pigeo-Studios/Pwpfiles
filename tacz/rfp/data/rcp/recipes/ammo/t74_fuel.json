@@ -1,0 +1,29 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "createdieselgenerators:gasoline_bucket"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "group": "explosives",
+    "id": "rcp:t74_fuel",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

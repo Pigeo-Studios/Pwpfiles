@@ -1,0 +1,7 @@
+{
+  "hidden": true,
+  "name": "kpp.attachment.k7s.name",
+  "display": "kpp:k7s_display",
+  "data": "kpp:k7s_data",
+  "type": "muzzle"
+}

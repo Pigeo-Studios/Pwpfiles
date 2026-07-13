@@ -1,0 +1,13 @@
+{
+  // 配件的的显示名称和工具提示，支持本地化
+  "name": "kpp.attachment.pvs11k.name",
+  // 配件的客户端数据
+  "display": "kpp:pvs11k_display",
+  // 配件的属性
+  "data": "kpp:pvs11k_data",
+  "tooltip": "kpp.attachment.pvs11k.desc",
+  // 配件的类型。scope、grip、muzzle、stock、laser、extended_mag
+  // 枪械配件槽位能从中选择可以安装的类型
+  "type": "scope",
+  "sort": 201
+}
