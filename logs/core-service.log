@@ -227,3 +227,22 @@
 2026-07-20 22:24:17.522 [main] INFO  - Listening on http://localhost:8080/
 2026-07-20 22:24:17.534 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 579 days old. Consider checking for a newer version.).
 2026-07-20 22:24:17.534 [main] INFO  - PWP Core Service running on port 8080
+2026-07-20 23:01:35.737 [main] INFO  - Starting PWP Core Service...
+2026-07-20 23:01:35.740 [main] WARN  - Could not load config file '>', using defaults
+2026-07-20 23:01:35.894 [main] INFO  - Version: dev (commit unknown)
+2026-07-20 23:01:35.905 [main] INFO  - PWP-Core-Pool - Starting...
+2026-07-20 23:01:36.171 [main] INFO  - PWP-Core-Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f2cfe3f
+2026-07-20 23:01:36.173 [main] INFO  - PWP-Core-Pool - Start completed.
+2026-07-20 23:01:36.173 [main] INFO  - Database pool initialized: 127.0.0.1:3306/pwp_core
+2026-07-20 23:01:36.187 [main] INFO  - Database tables verified
+2026-07-20 23:01:36.389 [main] WARN  - Failed to cleanup expired tokens: Table 'pwp_core.server_tokens' doesn't exist
+2026-07-20 23:01:36.615 [main] INFO  - Starting Javalin ...
+2026-07-20 23:01:36.617 [main] INFO  - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.19+10
+2026-07-20 23:01:36.666 [main] INFO  - Session workerName=node0
+2026-07-20 23:01:36.679 [main] INFO  - Started o.e.j.s.ServletContextHandler@61d9efe0{/,null,AVAILABLE}
+2026-07-20 23:01:36.732 [main] INFO  - Started ServerConnector@2b491fee{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-07-20 23:01:36.742 [main] INFO  - Started Server@48c35007{STARTING}[11.0.24,sto=0] @1354ms
+2026-07-20 23:01:36.743 [main] INFO  - Javalin started in 201ms \o/
+2026-07-20 23:01:36.747 [main] INFO  - Listening on http://localhost:8080/
+2026-07-20 23:01:36.760 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 580 days old. Consider checking for a newer version.).
+2026-07-20 23:01:36.760 [main] INFO  - PWP Core Service running on port 8080
