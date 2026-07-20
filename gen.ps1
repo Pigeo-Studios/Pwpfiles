@@ -10,8 +10,11 @@ $files = Get-ChildItem -LiteralPath $serverDir -Recurse -File | Where-Object {
     $fn -notlike "*\generate_manifest.ps1" -and
     $fn -notlike "*\gen.ps1" -and
     $fn -notlike "*\manifest_seed.sql" -and
+    $fn -notlike "*\manifest.json" -and
     $fn -notlike "*\.connector\*" -and
-    $fn -notlike "*\.index\*"
+    $fn -notlike "*\.index\*" -and
+    $fn -notlike "*.log" -and
+    $fn -notlike "*.lock"
 }
 
 $header = "INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES"
