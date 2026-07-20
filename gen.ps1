@@ -65,5 +65,5 @@ foreach ($f in $files) {
     }
 }
 $jsonOutput = @{ files = $jsonFiles } | ConvertTo-Json -Compress
-$jsonOutput | Out-File -LiteralPath (Join-Path $serverDir "manifest.json") -Encoding UTF8
+[System.IO.File]::WriteAllText([System.IO.Path]::Combine($serverDir, "manifest.json"), $jsonOutput, [System.Text.UTF8Encoding]::new($false))
 Write-Output "DONE: $($files.Count) files -> manifest.json"
