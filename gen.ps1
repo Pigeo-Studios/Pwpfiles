@@ -3,7 +3,7 @@ $serverDir = $PSScriptRoot
 $outputFile = Join-Path $serverDir "manifest_seed.sql"
 $sb = New-Object System.Text.StringBuilder
 
-[void]$sb.AppendLine("INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES")
+[void]$sb.AppendLine("TRUNCATE pwp_core.file_manifests;")
 
 $files = Get-ChildItem -LiteralPath $serverDir -Recurse -File | Where-Object {
     $fn = $_.FullName
@@ -14,34 +14,38 @@ $files = Get-ChildItem -LiteralPath $serverDir -Recurse -File | Where-Object {
     $fn -notlike "*\.index\*"
 }
 
-$count = 0
-$total = $files.Count
+$header = "INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES"
+$batchSize = 500
 
-foreach ($f in $files) {
-    $count++
-    $rel = $f.FullName.Substring($serverDir.Length + 1).Replace("\", "/")
+for ($i = 0; $i -lt $files.Count; $i += $batchSize) {
+    $batch = $files[$i..[Math]::Min($i + $batchSize - 1, $files.Count - 1)]
+    [void]$sb.AppendLine($header)
+    for ($j = 0; $j -lt $batch.Count; $j++) {
+        $f = $batch[$j]
+        $rel = $f.FullName.Substring($serverDir.Length + 1).Replace("\", "/")
 
-    $cat = "game"
-    if ($rel.StartsWith("mods/optional/")) { $cat = "mod" }
-    elseif ($rel.StartsWith("mods/")) { $cat = "mod" }
-    elseif ($rel.StartsWith("config/")) { $cat = "config" }
-    elseif ($rel.StartsWith("libraries/")) { $cat = "library" }
+        $cat = "game"
+        if ($rel.StartsWith("mods/optional/")) { $cat = "mod" }
+        elseif ($rel.StartsWith("mods/")) { $cat = "mod" }
+        elseif ($rel.StartsWith("config/")) { $cat = "config" }
+        elseif ($rel.StartsWith("libraries/")) { $cat = "library" }
 
-    $mod = "NULL"
-    $opt = "FALSE"
-    if ($rel.StartsWith("mods/optional/")) {
-        $opt = "TRUE"
-        $mod = "'" + [System.IO.Path]::GetFileNameWithoutExtension($f.Name) + "'"
-    } elseif ($rel -match "^mods/[^/]+\.jar$") {
-        $mod = "'" + [System.IO.Path]::GetFileNameWithoutExtension($f.Name) + "'"
+        $mod = "NULL"
+        $opt = "FALSE"
+        if ($rel.StartsWith("mods/optional/")) {
+            $opt = "TRUE"
+            $mod = "'" + [System.IO.Path]::GetFileNameWithoutExtension($f.Name) + "'"
+        } elseif ($rel -match "^mods/[^/]+\.jar$") {
+            $mod = "'" + [System.IO.Path]::GetFileNameWithoutExtension($f.Name) + "'"
+        }
+
+        $hash = (Get-FileHash -LiteralPath $f.FullName -Algorithm SHA256).Hash.ToLower()
+        $epath = $rel -replace "'", "''"
+
+        $comma = if ($j -eq $batch.Count - 1) { ";" } else { "," }
+        [void]$sb.AppendLine("('$epath', $($f.Length), '$hash', 'latest', '$cat', $mod, NULL, $opt)$comma")
     }
-
-    $hash = (Get-FileHash -LiteralPath $f.FullName -Algorithm SHA256).Hash.ToLower()
-    $epath = $rel -replace "'", "''"
-    if ($count -eq $total) { $comma = ";" } else { $comma = "," }
-
-    [void]$sb.AppendLine("('$epath', $($f.Length), '$hash', 'latest', '$cat', $mod, NULL, $opt)$comma")
 }
 
 $sb.ToString() | Out-File -LiteralPath $outputFile -Encoding UTF8
-Write-Output "DONE: $count files -> $outputFile"
+Write-Output "DONE: $($files.Count) files -> $outputFile"
