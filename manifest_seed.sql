@@ -123,7 +123,7 @@
 ('mods/pwp-lobby-1.0.0.jar', 75302, '5167729c8814dafcadfe0190d949edfb71d1fcd6eb07ba0d7f940f475f2a2309', 'latest', 'mod', 'pwp-lobby-1.0.0', NULL, FALSE),
 ('mods/pwp-medicine-1.0.3.jar', 97615, 'afb1010caad5ef0741659e8c75020548a6cfb7fb619aeac957d98fde36de6d2d', 'latest', 'mod', 'pwp-medicine-1.0.3', NULL, FALSE),
 ('mods/pwp-movement-1.0.0.jar', 6730, 'c6b2b70ec196b5b46155e289863a60fc9435c6990207da6b3328e740d6e26fcb', 'latest', 'mod', 'pwp-movement-1.0.0', NULL, FALSE),
-('mods/pwp-warfare-1.0.1.jar', 13062451, 'bfdad0df367a4a6502ef62e4d34978edef49054b0d34a75c47f648b594c8f10d', 'latest', 'mod', 'pwp-warfare-1.0.1', NULL, FALSE),
+('mods/pwp-warfare-1.0.1.jar', 10219176, 'db3560758e9611b10d4a31f5c185b6daa3f66b2a148da4dc1fdbe7a72001b9da', 'latest', 'mod', 'pwp-warfare-1.0.1', NULL, FALSE),
 ('mods/reforgedplaymod-1.20.1-0.3.1.jar', 16661938, '00a1f31b05db4abee5e8523ccc00aff4ec8b96b02c982386d90014276fd4604b', 'latest', 'mod', 'reforgedplaymod-1.20.1-0.3.1', NULL, FALSE),
 ('mods/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar', 568608, '32c28582040dfab4e167542bf319107296e9eff3cb17f4f576eba036f2d256da', 'latest', 'mod', 'rubidium-extra-0.5.4.4+mc1.20.1-build.131', NULL, FALSE),
 ('mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar', 206984, '1d7a0d4cdbdee61532dd23ddbc2833292e945d8ec2d20f3271af86b02b0fc108', 'latest', 'mod', 'sound-physics-remastered-forge-1.20.1-1.5.1', NULL, FALSE),
