@@ -1,1 +1,1 @@
-{ "version": "4.0.5", "download_url": "https://github.com/Pigeo-Studios/Pwpfiles/releases/download/v4.0.5/PWPLauncher.exe", "sha256": "273a2fef7ed89ccb8a4325e86d103f9cefcbbafa35b7bca8adfa57cc3a6aabef", "mandatory": false, "changelog": "fix: JSON deserialization + gen.ps1 без BOM" }
+{ "version": "4.0.5", "download_url": "https://github.com/Pigeo-Studios/Pwpfiles/releases/download/v4.0.5/PWPLauncher.exe", "sha256": "663d3cf038711a79002530c5062df78dc1937ff18bd4dc30e0cd03bea63b412c", "mandatory": false, "changelog": "fix: UTF-8 BOM strip в Rust + gen.ps1 без BOM" }
