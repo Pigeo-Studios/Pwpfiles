@@ -49,3 +49,18 @@ for ($i = 0; $i -lt $files.Count; $i += $batchSize) {
 
 $sb.ToString() | Out-File -LiteralPath $outputFile -Encoding UTF8
 Write-Output "DONE: $($files.Count) files -> $outputFile"
+
+# ── Generate manifest.json (for Launcher GitHub raw update) ──
+$jsonFiles = @()
+foreach ($f in $files) {
+    $rel = $f.FullName.Substring($serverDir.Length + 1).Replace("\", "/")
+    $hash = (Get-FileHash -LiteralPath $f.FullName -Algorithm SHA256).Hash.ToLower()
+    $jsonFiles += @{
+        path = $rel
+        size = $f.Length
+        sha256 = $hash
+    }
+}
+$jsonOutput = @{ files = $jsonFiles } | ConvertTo-Json -Compress
+$jsonOutput | Out-File -LiteralPath (Join-Path $serverDir "manifest.json") -Encoding UTF8
+Write-Output "DONE: $($files.Count) files -> manifest.json"
