@@ -1,1 +1,1 @@
-{ "version": "4.0.5", "download_url": "https://github.com/Pigeo-Studios/Pwpfiles/releases/download/v4.0.5/PWPLauncher.exe", "sha256": "663d3cf038711a79002530c5062df78dc1937ff18bd4dc30e0cd03bea63b412c", "mandatory": false, "changelog": "fix: UTF-8 BOM strip в Rust + gen.ps1 без BOM" }
+{ "version": "4.0.5", "download_url": "https://github.com/Pigeo-Studios/Pwpfiles/releases/download/v4.0.5/PWPLauncher.exe", "sha256": "233cddaaba7706d28119bd7674d013853a087671479e987b31ba457a1ff2c70e", "mandatory": false, "changelog": "fix: prefix маппинг mod->mods/ (раньше искало mod/)" }
