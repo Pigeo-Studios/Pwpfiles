@@ -1,0 +1,180 @@
+2026-07-23 09:18:15.471 [main] INFO  - Starting PWP Core Service...
+2026-07-23 09:18:15.481 [main] WARN  - Could not load config file '>', using defaults
+2026-07-23 09:18:15.700 [main] INFO  - Version: dev (commit unknown)
+2026-07-23 09:18:15.715 [main] INFO  - PWP-Core-Pool - Starting...
+2026-07-23 09:18:16.066 [main] INFO  - PWP-Core-Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@383dc82c
+2026-07-23 09:18:16.069 [main] INFO  - PWP-Core-Pool - Start completed.
+2026-07-23 09:18:16.069 [main] INFO  - Database pool initialized: 127.0.0.1:3306/pwp_core
+2026-07-23 09:18:16.092 [main] INFO  - Database tables verified
+2026-07-23 09:18:16.660 [main] INFO  - Starting Javalin ...
+2026-07-23 09:18:16.663 [main] INFO  - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.19+10
+2026-07-23 09:18:16.718 [main] INFO  - Session workerName=node0
+2026-07-23 09:18:16.732 [main] INFO  - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2026-07-23 09:18:16.798 [main] INFO  - Started ServerConnector@28d6290{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-07-23 09:18:16.811 [main] INFO  - Started Server@631e06ab{STARTING}[11.0.24,sto=0] @1845ms
+2026-07-23 09:18:16.812 [main] INFO  - Javalin started in 256ms \o/
+2026-07-23 09:18:16.815 [main] INFO  - Listening on http://localhost:8080/
+2026-07-23 09:18:16.832 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 582 days old. Consider checking for a newer version.).
+2026-07-23 09:18:16.832 [main] INFO  - PWP Core Service running on port 8080
+2026-07-23 09:59:51.325 [main] INFO  - Starting PWP Core Service...
+2026-07-23 09:59:51.328 [main] WARN  - Could not load config file '>', using defaults
+2026-07-23 09:59:51.504 [main] INFO  - Version: dev (commit unknown)
+2026-07-23 09:59:51.515 [main] INFO  - PWP-Core-Pool - Starting...
+2026-07-23 09:59:51.802 [main] INFO  - PWP-Core-Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a5b6f42
+2026-07-23 09:59:51.804 [main] INFO  - PWP-Core-Pool - Start completed.
+2026-07-23 09:59:51.804 [main] INFO  - Database pool initialized: 127.0.0.1:3306/pwp_core
+2026-07-23 09:59:51.814 [main] INFO  - Database tables verified
+2026-07-23 09:59:52.269 [main] INFO  - Starting Javalin ...
+2026-07-23 09:59:52.272 [main] INFO  - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.19+10
+2026-07-23 09:59:52.314 [main] INFO  - Session workerName=node0
+2026-07-23 09:59:52.325 [main] INFO  - Started o.e.j.s.ServletContextHandler@7e70bd39{/,null,AVAILABLE}
+2026-07-23 09:59:52.375 [main] INFO  - Started ServerConnector@3f1c5af9{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-07-23 09:59:52.385 [main] INFO  - Started Server@72a85671{STARTING}[11.0.24,sto=0] @1456ms
+2026-07-23 09:59:52.386 [main] INFO  - Javalin started in 180ms \o/
+2026-07-23 09:59:52.388 [main] INFO  - Listening on http://localhost:8080/
+2026-07-23 09:59:52.398 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 582 days old. Consider checking for a newer version.).
+2026-07-23 09:59:52.398 [main] INFO  - PWP Core Service running on port 8080
+2026-07-23 11:05:05.986 [main] INFO  - Starting PWP Core Service...
+2026-07-23 11:05:05.989 [main] WARN  - Could not load config file '>', using defaults
+2026-07-23 11:05:06.219 [main] INFO  - Version: dev (commit unknown)
+2026-07-23 11:05:06.241 [main] INFO  - PWP-Core-Pool - Starting...
+2026-07-23 11:05:06.632 [main] INFO  - PWP-Core-Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5038d0b5
+2026-07-23 11:05:06.635 [main] INFO  - PWP-Core-Pool - Start completed.
+2026-07-23 11:05:06.635 [main] INFO  - Database pool initialized: 127.0.0.1:3306/pwp_core
+2026-07-23 11:05:06.662 [main] INFO  - Database tables verified
+2026-07-23 11:05:07.315 [main] INFO  - Starting Javalin ...
+2026-07-23 11:05:07.320 [main] INFO  - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.19+10
+2026-07-23 11:05:07.389 [main] INFO  - Session workerName=node0
+2026-07-23 11:05:07.414 [main] INFO  - Started o.e.j.s.ServletContextHandler@e6516e{/,null,AVAILABLE}
+2026-07-23 11:05:07.499 [main] INFO  - Started ServerConnector@1c55f277{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-07-23 11:05:07.515 [main] INFO  - Started Server@6722db6e{STARTING}[11.0.24,sto=0] @2116ms
+2026-07-23 11:05:07.516 [main] INFO  - Javalin started in 330ms \o/
+2026-07-23 11:05:07.521 [main] INFO  - Listening on http://localhost:8080/
+2026-07-23 11:05:07.542 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 582 days old. Consider checking for a newer version.).
+2026-07-23 11:05:07.544 [main] INFO  - PWP Core Service running on port 8080
+2026-07-23 12:14:18.341 [main] INFO  - Starting PWP Core Service...
+2026-07-23 12:14:18.344 [main] WARN  - Could not load config file '>', using defaults
+2026-07-23 12:14:18.509 [main] INFO  - Version: dev (commit unknown)
+2026-07-23 12:14:18.520 [main] INFO  - PWP-Core-Pool - Starting...
+2026-07-23 12:14:18.795 [main] INFO  - PWP-Core-Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f2cfe3f
+2026-07-23 12:14:18.797 [main] INFO  - PWP-Core-Pool - Start completed.
+2026-07-23 12:14:18.798 [main] INFO  - Database pool initialized: 127.0.0.1:3306/pwp_core
+2026-07-23 12:14:18.817 [main] INFO  - Database tables verified
+2026-07-23 12:14:19.269 [main] INFO  - Starting Javalin ...
+2026-07-23 12:14:19.271 [main] INFO  - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.19+10
+2026-07-23 12:14:19.317 [main] INFO  - Session workerName=node0
+2026-07-23 12:14:19.329 [main] INFO  - Started o.e.j.s.ServletContextHandler@7e70bd39{/,null,AVAILABLE}
+2026-07-23 12:14:19.382 [main] INFO  - Started ServerConnector@3f1c5af9{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-07-23 12:14:19.392 [main] INFO  - Started Server@72a85671{STARTING}[11.0.24,sto=0] @1436ms
+2026-07-23 12:14:19.394 [main] INFO  - Javalin started in 188ms \o/
+2026-07-23 12:14:19.397 [main] INFO  - Listening on http://localhost:8080/
+2026-07-23 12:14:19.408 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 582 days old. Consider checking for a newer version.).
+2026-07-23 12:14:19.408 [main] INFO  - PWP Core Service running on port 8080
+2026-07-23 14:54:38.018 [main] INFO  - Starting PWP Core Service...
+2026-07-23 14:54:38.021 [main] WARN  - Could not load config file '>', using defaults
+2026-07-23 14:54:38.186 [main] INFO  - Version: dev (commit unknown)
+2026-07-23 14:54:38.200 [main] INFO  - PWP-Core-Pool - Starting...
+2026-07-23 14:54:38.490 [main] INFO  - PWP-Core-Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a5b6f42
+2026-07-23 14:54:38.493 [main] INFO  - PWP-Core-Pool - Start completed.
+2026-07-23 14:54:38.493 [main] INFO  - Database pool initialized: 127.0.0.1:3306/pwp_core
+2026-07-23 14:54:38.507 [main] INFO  - Database tables verified
+2026-07-23 14:54:39.013 [main] INFO  - Starting Javalin ...
+2026-07-23 14:54:39.016 [main] INFO  - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.19+10
+2026-07-23 14:54:39.073 [main] INFO  - Session workerName=node0
+2026-07-23 14:54:39.086 [main] INFO  - Started o.e.j.s.ServletContextHandler@7e70bd39{/,null,AVAILABLE}
+2026-07-23 14:54:39.137 [main] INFO  - Started ServerConnector@3f1c5af9{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-07-23 14:54:39.147 [main] INFO  - Started Server@72a85671{STARTING}[11.0.24,sto=0] @1546ms
+2026-07-23 14:54:39.149 [main] INFO  - Javalin started in 237ms \o/
+2026-07-23 14:54:39.152 [main] INFO  - Listening on http://localhost:8080/
+2026-07-23 14:54:39.169 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 582 days old. Consider checking for a newer version.).
+2026-07-23 14:54:39.170 [main] INFO  - PWP Core Service running on port 8080
+2026-07-23 21:11:21.527 [main] INFO  - Starting PWP Core Service...
+2026-07-23 21:11:21.530 [main] WARN  - Could not load config file '>', using defaults
+2026-07-23 21:11:21.715 [main] INFO  - Version: dev (commit unknown)
+2026-07-23 21:11:21.727 [main] INFO  - PWP-Core-Pool - Starting...
+2026-07-23 21:11:22.028 [main] INFO  - PWP-Core-Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5038d0b5
+2026-07-23 21:11:22.031 [main] INFO  - PWP-Core-Pool - Start completed.
+2026-07-23 21:11:22.031 [main] INFO  - Database pool initialized: 127.0.0.1:3306/pwp_core
+2026-07-23 21:11:22.045 [main] INFO  - Database tables verified
+2026-07-23 21:11:22.593 [main] INFO  - Starting Javalin ...
+2026-07-23 21:11:22.597 [main] INFO  - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.19+10
+2026-07-23 21:11:22.682 [main] INFO  - Session workerName=node0
+2026-07-23 21:11:22.699 [main] INFO  - Started o.e.j.s.ServletContextHandler@e6516e{/,null,AVAILABLE}
+2026-07-23 21:11:22.746 [main] INFO  - Started ServerConnector@1c55f277{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-07-23 21:11:22.757 [main] INFO  - Started Server@6722db6e{STARTING}[11.0.24,sto=0] @1795ms
+2026-07-23 21:11:22.758 [main] INFO  - Javalin started in 282ms \o/
+2026-07-23 21:11:22.761 [main] INFO  - Listening on http://localhost:8080/
+2026-07-23 21:11:22.773 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 582 days old. Consider checking for a newer version.).
+2026-07-23 21:11:22.774 [main] INFO  - PWP Core Service running on port 8080
+2026-07-23 23:03:41.953 [main] INFO  - Starting PWP Core Service...
+2026-07-23 23:03:41.955 [main] WARN  - Could not load config file '>', using defaults
+2026-07-23 23:03:42.101 [main] INFO  - Version: dev (commit unknown)
+2026-07-23 23:03:42.111 [main] INFO  - PWP-Core-Pool - Starting...
+2026-07-23 23:03:42.378 [main] INFO  - PWP-Core-Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5038d0b5
+2026-07-23 23:03:42.379 [main] INFO  - PWP-Core-Pool - Start completed.
+2026-07-23 23:03:42.379 [main] INFO  - Database pool initialized: 127.0.0.1:3306/pwp_core
+2026-07-23 23:03:42.391 [main] INFO  - Database tables verified
+2026-07-23 23:03:42.807 [main] INFO  - Starting Javalin ...
+2026-07-23 23:03:42.809 [main] INFO  - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.19+10
+2026-07-23 23:03:42.855 [main] INFO  - Session workerName=node0
+2026-07-23 23:03:42.867 [main] INFO  - Started o.e.j.s.ServletContextHandler@e6516e{/,null,AVAILABLE}
+2026-07-23 23:03:42.919 [main] INFO  - Started ServerConnector@1c55f277{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-07-23 23:03:42.928 [main] INFO  - Started Server@6722db6e{STARTING}[11.0.24,sto=0] @1342ms
+2026-07-23 23:03:42.929 [main] INFO  - Javalin started in 185ms \o/
+2026-07-23 23:03:42.933 [main] INFO  - Listening on http://localhost:8080/
+2026-07-23 23:03:42.942 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 583 days old. Consider checking for a newer version.).
+2026-07-23 23:03:42.943 [main] INFO  - PWP Core Service running on port 8080
+2026-07-23 23:16:49.085 [main] INFO  - Starting PWP Core Service...
+2026-07-23 23:16:49.087 [main] WARN  - Could not load config file '>', using defaults
+2026-07-23 23:16:49.283 [main] INFO  - Version: dev (commit unknown)
+2026-07-23 23:16:49.295 [main] INFO  - PWP-Core-Pool - Starting...
+2026-07-23 23:16:49.657 [main] INFO  - PWP-Core-Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5038d0b5
+2026-07-23 23:16:49.660 [main] INFO  - PWP-Core-Pool - Start completed.
+2026-07-23 23:16:49.660 [main] INFO  - Database pool initialized: 127.0.0.1:3306/pwp_core
+2026-07-23 23:16:49.677 [main] INFO  - Database tables verified
+2026-07-23 23:16:50.273 [main] INFO  - Starting Javalin ...
+2026-07-23 23:16:50.276 [main] INFO  - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.19+10
+2026-07-23 23:16:50.338 [main] INFO  - Session workerName=node0
+2026-07-23 23:16:50.350 [main] INFO  - Started o.e.j.s.ServletContextHandler@e6516e{/,null,AVAILABLE}
+2026-07-23 23:16:50.417 [main] INFO  - Started ServerConnector@1c55f277{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-07-23 23:16:50.433 [main] INFO  - Started Server@6722db6e{STARTING}[11.0.24,sto=0] @1779ms
+2026-07-23 23:16:50.435 [main] INFO  - Javalin started in 298ms \o/
+2026-07-23 23:16:50.440 [main] INFO  - Listening on http://localhost:8080/
+2026-07-23 23:16:50.458 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 583 days old. Consider checking for a newer version.).
+2026-07-23 23:16:50.459 [main] INFO  - PWP Core Service running on port 8080
+2026-07-23 23:27:36.856 [main] INFO  - Starting PWP Core Service...
+2026-07-23 23:27:36.859 [main] WARN  - Could not load config file '>', using defaults
+2026-07-23 23:27:37.020 [main] INFO  - Version: dev (commit unknown)
+2026-07-23 23:27:37.032 [main] INFO  - PWP-Core-Pool - Starting...
+2026-07-23 23:27:37.327 [main] INFO  - PWP-Core-Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f2cfe3f
+2026-07-23 23:27:37.329 [main] INFO  - PWP-Core-Pool - Start completed.
+2026-07-23 23:27:37.329 [main] INFO  - Database pool initialized: 127.0.0.1:3306/pwp_core
+2026-07-23 23:27:37.340 [main] INFO  - Database tables verified
+2026-07-23 23:27:37.808 [main] INFO  - Starting Javalin ...
+2026-07-23 23:27:37.812 [main] INFO  - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.19+10
+2026-07-23 23:27:37.857 [main] INFO  - Session workerName=node0
+2026-07-23 23:27:37.871 [main] INFO  - Started o.e.j.s.ServletContextHandler@7e70bd39{/,null,AVAILABLE}
+2026-07-23 23:27:37.927 [main] INFO  - Started ServerConnector@3f1c5af9{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-07-23 23:27:37.939 [main] INFO  - Started Server@72a85671{STARTING}[11.0.24,sto=0] @1478ms
+2026-07-23 23:27:37.940 [main] INFO  - Javalin started in 199ms \o/
+2026-07-23 23:27:37.943 [main] INFO  - Listening on http://localhost:8080/
+2026-07-23 23:27:37.954 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 583 days old. Consider checking for a newer version.).
+2026-07-23 23:27:37.955 [main] INFO  - PWP Core Service running on port 8080
+2026-07-23 23:55:16.511 [main] INFO  - Starting PWP Core Service...
+2026-07-23 23:55:16.514 [main] WARN  - Could not load config file '>', using defaults
+2026-07-23 23:55:16.678 [main] INFO  - Version: dev (commit unknown)
+2026-07-23 23:55:16.694 [main] INFO  - PWP-Core-Pool - Starting...
+2026-07-23 23:55:16.981 [main] INFO  - PWP-Core-Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5038d0b5
+2026-07-23 23:55:16.983 [main] INFO  - PWP-Core-Pool - Start completed.
+2026-07-23 23:55:16.984 [main] INFO  - Database pool initialized: 127.0.0.1:3306/pwp_core
+2026-07-23 23:55:16.998 [main] INFO  - Database tables verified
+2026-07-23 23:55:17.459 [main] INFO  - Starting Javalin ...
+2026-07-23 23:55:17.462 [main] INFO  - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.19+10
+2026-07-23 23:55:17.504 [main] INFO  - Session workerName=node0
+2026-07-23 23:55:17.515 [main] INFO  - Started o.e.j.s.ServletContextHandler@e6516e{/,null,AVAILABLE}
+2026-07-23 23:55:17.569 [main] INFO  - Started ServerConnector@1c55f277{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-07-23 23:55:17.580 [main] INFO  - Started Server@6722db6e{STARTING}[11.0.24,sto=0] @1471ms
+2026-07-23 23:55:17.581 [main] INFO  - Javalin started in 189ms \o/
+2026-07-23 23:55:17.584 [main] INFO  - Listening on http://localhost:8080/
+2026-07-23 23:55:17.597 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 583 days old. Consider checking for a newer version.).
+2026-07-23 23:55:17.597 [main] INFO  - PWP Core Service running on port 8080
