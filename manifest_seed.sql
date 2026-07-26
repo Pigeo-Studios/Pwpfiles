@@ -147,7 +147,7 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('mods/WRB-Armor-0.4.1.jar', 934785, '0f79b2731c6d158e896c0950586c763756eb08b176daf7e3406a1e4539619fcb', 'latest', 'mod', 'WRB-Armor-0.4.1', NULL, FALSE),
 ('mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar', 1105891, 'bd05da3d9df29b914165583f1c6dfd918a138996447ff32c0418329824027a8f', 'latest', 'mod', 'yet_another_config_lib_v3-3.6.6+1.20.1-forge', NULL, FALSE),
 ('mods/[SBW089]dragonrise_reforge-1.4.1.01-hotfix1.jar', 35287787, '5370c17edf8eb204845fe73510a4a5043da89905c93fde38ef908a566df68c50', 'latest', 'mod', '[SBW089]dragonrise_reforge-1.4.1.01-hotfix1', NULL, FALSE),
-('pointblank/fcl-ext 0.1.zip', 2356958, '82a2230d0282a6bb3e0f29ea6495895315339fd9d5e8e7d6c15701cd10f59ba1', 'latest', 'game', NULL, NULL, FALSE),
+('pointblank/fcl-ext-0.1.zip', 2356958, '82a2230d0282a6bb3e0f29ea6495895315339fd9d5e8e7d6c15701cd10f59ba1', 'latest', 'game', NULL, NULL, FALSE),
 ('tacz/.export-state.json', 527, '198e895ea5d2cf05df394a55f0436c24779274066b2524c332441a47744739a5', 'latest', 'game', NULL, NULL, FALSE),
 ('tacz/cibr_guns_pack.zip', 57546590, '40797ee6fc734de14e3065e80f85a61efa67207af9914d24084b3b680a8aba60', 'latest', 'game', NULL, NULL, FALSE),
 ('tacz/endlessammo.zip', 92127, '10057286f1368a48c5169d8f2b4e486ad255173852145ef99dc55edf726413bc', 'latest', 'game', NULL, NULL, FALSE),
