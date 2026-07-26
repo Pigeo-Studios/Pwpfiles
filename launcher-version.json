@@ -1,1 +1,2 @@
+
 { "version": "4.0.5", "download_url": "https://github.com/Pigeo-Studios/Pwpfiles/releases/download/v4.0.5/PWPLauncher.exe", "sha256": "233cddaaba7706d28119bd7674d013853a087671479e987b31ba457a1ff2c70e", "mandatory": false, "changelog": "fix: prefix маппинг mod->mods/ (раньше искало mod/)" }
