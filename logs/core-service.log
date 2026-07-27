@@ -453,3 +453,24 @@
 2026-07-27 14:23:36.129 [JettyServerThreadPool-31] WARN  - No session secret for POST from 192.168.50.1 (path=/api/v1/network/bot-heartbeat)
 2026-07-27 14:23:44.873 [JettyServerThreadPool-33] WARN  - No session secret for GET from 192.168.50.1 (path=/api/v1/network/status)
 2026-07-27 14:23:54.194 [JettyServerThreadPool-34] WARN  - No session secret for POST from 192.168.50.1 (path=/api/v1/network/bot-heartbeat)
+2026-07-27 14:46:13.106 [main] INFO  - Starting PWP Core Service...
+2026-07-27 14:46:13.109 [main] WARN  - Could not load config file '>', using defaults
+2026-07-27 14:46:13.280 [main] INFO  - Version: dev (commit unknown)
+2026-07-27 14:46:13.292 [main] INFO  - PWP-Core-Pool - Starting...
+2026-07-27 14:46:13.564 [main] INFO  - PWP-Core-Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@50f6ac94
+2026-07-27 14:46:13.566 [main] INFO  - PWP-Core-Pool - Start completed.
+2026-07-27 14:46:13.567 [main] INFO  - Database pool initialized: 127.0.0.1:3306/pwp_core
+2026-07-27 14:46:13.577 [main] INFO  - Database tables verified
+2026-07-27 14:46:14.013 [main] INFO  - Starting Javalin ...
+2026-07-27 14:46:14.016 [main] INFO  - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.19+10
+2026-07-27 14:46:14.060 [main] INFO  - Session workerName=node0
+2026-07-27 14:46:14.071 [main] INFO  - Started o.e.j.s.ServletContextHandler@7eb01b12{/,null,AVAILABLE}
+2026-07-27 14:46:14.121 [main] INFO  - Started ServerConnector@1bc715b8{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-07-27 14:46:14.130 [main] INFO  - Started Server@7c7d3c46{STARTING}[11.0.24,sto=0] @1418ms
+2026-07-27 14:46:14.132 [main] INFO  - Javalin started in 183ms \o/
+2026-07-27 14:46:14.135 [main] INFO  - Listening on http://localhost:8080/
+2026-07-27 14:46:14.147 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 586 days old. Consider checking for a newer version.).
+2026-07-27 14:46:14.147 [main] INFO  - PWP Core Service running on port 8080
+2026-07-27 14:46:15.885 [JettyServerThreadPool-30] WARN  - No session secret for POST from 192.168.50.1 (path=/api/v1/network/bot-heartbeat)
+2026-07-27 14:46:42.624 [JettyServerThreadPool-33] WARN  - No session secret for GET from 192.168.50.1 (path=/api/v1/network/status)
+2026-07-27 14:46:46.474 [JettyServerThreadPool-34] WARN  - No session secret for POST from 192.168.50.1 (path=/api/v1/network/bot-heartbeat)
