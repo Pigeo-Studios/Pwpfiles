@@ -713,3 +713,29 @@
 2026-07-27 16:09:37.626 [JettyServerThreadPool-31] WARN  - No session secret for POST from 192.168.50.1 (path=/api/v1/network/bot-heartbeat)
 2026-07-27 16:09:37.952 [JettyServerThreadPool-42] WARN  - No session secret for GET from 192.168.50.1 (path=/api/v1/network/status)
 2026-07-27 16:09:38.359 [JettyServerThreadPool-45] WARN  - No session secret for GET from 192.168.50.1 (path=/api/v1/network/status)
+2026-07-27 16:46:19.620 [main] INFO  - Starting PWP Core Service...
+2026-07-27 16:46:19.623 [main] WARN  - Could not load config file '>', using defaults
+2026-07-27 16:46:19.788 [main] INFO  - Version: dev (commit unknown)
+2026-07-27 16:46:19.799 [main] INFO  - PWP-Core-Pool - Starting...
+2026-07-27 16:46:20.080 [main] INFO  - PWP-Core-Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@50f6ac94
+2026-07-27 16:46:20.083 [main] INFO  - PWP-Core-Pool - Start completed.
+2026-07-27 16:46:20.083 [main] INFO  - Database pool initialized: 127.0.0.1:3306/pwp_core
+2026-07-27 16:46:20.093 [main] INFO  - Database tables verified
+2026-07-27 16:46:20.329 [main] INFO  - Cleaned up 6 expired auth tokens
+2026-07-27 16:46:20.567 [main] INFO  - Starting Javalin ...
+2026-07-27 16:46:20.569 [main] INFO  - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.19+10
+2026-07-27 16:46:20.612 [main] INFO  - Session workerName=node0
+2026-07-27 16:46:20.621 [main] INFO  - Started o.e.j.s.ServletContextHandler@7eb01b12{/,null,AVAILABLE}
+2026-07-27 16:46:20.679 [main] INFO  - Started ServerConnector@1bc715b8{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-07-27 16:46:20.690 [main] INFO  - Started Server@7c7d3c46{STARTING}[11.0.24,sto=0] @1467ms
+2026-07-27 16:46:20.691 [main] INFO  - Javalin started in 192ms \o/
+2026-07-27 16:46:20.695 [main] INFO  - Listening on http://localhost:8080/
+2026-07-27 16:46:20.706 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 586 days old. Consider checking for a newer version.).
+2026-07-27 16:46:20.706 [main] INFO  - PWP Core Service running on port 8080
+2026-07-27 16:46:36.099 [JettyServerThreadPool-31] WARN  - No session secret for POST from 192.168.50.1 (path=/api/v1/network/bot-heartbeat)
+2026-07-27 16:46:39.419 [JettyServerThreadPool-32] WARN  - No session secret for GET from 192.168.50.1 (path=/api/v1/network/status)
+2026-07-27 16:47:06.946 [JettyServerThreadPool-33] WARN  - No session secret for POST from 192.168.50.1 (path=/api/v1/network/bot-heartbeat)
+2026-07-27 16:47:09.763 [JettyServerThreadPool-34] WARN  - No session secret for GET from 192.168.50.1 (path=/api/v1/network/status)
+2026-07-27 16:47:19.646 [JettyServerThreadPool-35] WARN  - No session secret for POST from 192.168.50.1 (path=/api/v1/network/bot-heartbeat)
+2026-07-27 16:47:19.989 [JettyServerThreadPool-36] WARN  - No session secret for GET from 192.168.50.1 (path=/api/v1/network/status)
+2026-07-27 16:47:20.378 [JettyServerThreadPool-29] WARN  - No session secret for GET from 192.168.50.1 (path=/api/v1/network/status)
