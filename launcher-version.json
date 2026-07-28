@@ -1,1 +1,1 @@
-{"version":"4.0.8","download_url":"https://github.com/Pigeo-Studios/Pwpfiles/releases/download/v4.0.8/PWPLauncher.exe","sha256":"0CB5C8C92E905BB71F763D1DE01A9BC99DFF63B3D3EA67DD46D83DA468D92DDD","mandatory":true,"changelog":"fix: session refresh - access_token field name + hmac_secret"}
+{"version":"4.0.8","download_url":"https://github.com/Pigeo-Studios/Pwpfiles/releases/download/v4.0.8/PWPLauncher.exe","sha256":"07D5E81B397E9241B3E7A49D77F8657AD8F066DD1629DE955C3A1C47C332EE5C","mandatory":true,"changelog":"fix: session refresh - access_token field name + hmac_secret"}
