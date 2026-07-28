@@ -109,3 +109,22 @@
 2026-07-28 12:48:26.960 [main] INFO  - Listening on http://localhost:8080/
 2026-07-28 12:48:26.981 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 587 days old. Consider checking for a newer version.).
 2026-07-28 12:48:26.982 [main] INFO  - PWP Core Service running on port 8080
+2026-07-28 13:26:05.822 [main] INFO  - Starting PWP Core Service...
+2026-07-28 13:26:05.834 [main] WARN  - Could not load config file '>', using defaults
+2026-07-28 13:26:06.045 [main] INFO  - Version: dev (commit unknown)
+2026-07-28 13:26:06.061 [main] INFO  - PWP-Core-Pool - Starting...
+2026-07-28 13:26:06.437 [main] INFO  - PWP-Core-Pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@6cc4cdb9
+2026-07-28 13:26:06.440 [main] INFO  - PWP-Core-Pool - Start completed.
+2026-07-28 13:26:06.440 [main] INFO  - Database pool initialized: 127.0.0.1:3306/pwp_core
+2026-07-28 13:26:06.458 [main] INFO  - Database tables verified
+2026-07-28 13:26:07.027 [main] INFO  - Starting Javalin ...
+2026-07-28 13:26:07.031 [main] INFO  - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.19+10
+2026-07-28 13:26:07.092 [main] INFO  - Session workerName=node0
+2026-07-28 13:26:07.106 [main] INFO  - Started o.e.j.s.ServletContextHandler@2f4854d6{/,null,AVAILABLE}
+2026-07-28 13:26:07.175 [main] INFO  - Started ServerConnector@292d1c71{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-07-28 13:26:07.189 [main] INFO  - Started Server@24fb6a80{STARTING}[11.0.24,sto=0] @1922ms
+2026-07-28 13:26:07.191 [main] INFO  - Javalin started in 279ms \o/
+2026-07-28 13:26:07.196 [main] INFO  - Listening on http://localhost:8080/
+2026-07-28 13:26:07.221 [main] INFO  - You are running Javalin 6.4.0 (released December 17, 2024. Your Javalin version is 587 days old. Consider checking for a newer version.).
+2026-07-28 13:26:07.221 [main] INFO  - PWP Core Service running on port 8080
+2026-07-28 13:26:07.536 [JettyServerThreadPool-32] WARN  - No session secret for POST from 127.0.0.1 (path=/api/v1/auth/revoke-sessions)
