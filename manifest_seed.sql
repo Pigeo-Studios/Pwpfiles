@@ -124,7 +124,7 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar', 181437, '90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691', 'latest', 'mod', 'player animation lib', NULL, FALSE),
 ('mods/pointblank-forge-1.20.1-1.11.1.jar', 17452885, 'df6f6f1773c62e8fdfe6f15e4be87c44dbbbb26335b9c6153482ca1b81ac4f61', 'latest', 'mod', 'pointblank', NULL, FALSE),
 ('mods/pwp-blast-protection-1.0.0.jar', 14045, '953fd7d5fdefaa06cf9c7d0b3868b302a98bd329d688a76f6693c936d14c3d5c', 'latest', 'mod', 'pwp blast protection', NULL, FALSE),
-('mods/pwp-core-client-1.0.1.jar', 4768341, '23f084c4c329114249faf3e4e94c378b46326d57f0f277135550c35eb2a1e8e3', 'latest', 'mod', 'pwp core client', NULL, FALSE),
+('mods/pwp-core-client-1.0.1.jar', 4767935, 'e6fed77a5ca89ad6936f7b543a530f393068c9cedaf75a6feff607726cd4041b', 'latest', 'mod', 'pwp core client', NULL, FALSE),
 ('mods/pwp-core-server-1.0.2.jar', 19776, '70ae3ee6f4ea542c0ac7692fc39aa63890c3c706ad38930060bb424930e766f8', 'latest', 'mod', 'pwp core server', NULL, FALSE),
 ('mods/pwp-cosmetics-1.0.0.jar', 23470, 'e125e38d395ff1e37c08d0346dcc92126b82461a3649eceac7b4a15683e1b214', 'latest', 'mod', 'pwp cosmetics', NULL, FALSE),
 ('mods/pwp-limits-1.0.2.jar', 13610, '5622efbb3cc6c26feb1c4de57a67f73a15d4f633187274fad251dc097fc1f9ba', 'latest', 'mod', 'pwp limits', NULL, FALSE),
