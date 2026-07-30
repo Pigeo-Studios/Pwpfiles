@@ -1,0 +1,118 @@
+{
+  "mods": [
+    {
+      "file": "AmbientEnvironment-forge-1.20.1-11.0.0.1.jar",
+      "mod_name": "Ambient Environment",
+      "mod_description": "Добавляет атмосферные звуки и эффекты окружения: пение птиц, ветер, гром",
+      "default_enabled": false
+    },
+    {
+      "file": "CameraOverhaul-v2.1.1-forge+mc[1.20-1.20.5].jar",
+      "mod_name": "Camera Overhaul",
+      "mod_description": "Улучшает камеру: наклон при движении, инерция, эффекты скорости",
+      "default_enabled": false
+    },
+    {
+      "file": "EnhancedVisuals_FORGE_v1.8.29_mc1.20.1.jar",
+      "mod_name": "Enhanced Visuals",
+      "mod_description": "Визуальные эффекты: размытие, блики, подводные искажения",
+      "default_enabled": false
+    },
+    {
+      "file": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+      "mod_name": "Immediately Fast",
+      "mod_description": "Оптимизация рендеринга: ускорение загрузки чанков и FPS",
+      "default_enabled": true
+    },
+    {
+      "file": "KeybindAtlas-v1.4.0-mc1.20.1-forge.jar",
+      "mod_name": "Keybind Atlas",
+      "mod_description": "Удобный интерфейс просмотра и поиска всех назначений клавиш",
+      "default_enabled": false
+    },
+    {
+      "file": "leaningornot-1.20.1-0.2.0-BETA.jar",
+      "mod_name": "Leaning Or Not",
+      "mod_description": "Добавляет возможность выглядывать из-за углов и наклоняться",
+      "default_enabled": true
+    },
+    {
+      "file": "matmos_tct-7.5-forge-1.20.1.jar",
+      "mod_name": "MAtmos TCT",
+      "mod_description": "Расширенная звуковая система окружения с погодой и биомами",
+      "default_enabled": false
+    },
+    {
+      "file": "nohurtflash-1.20.1-0.1.2.jar",
+      "mod_name": "No Hurt Flash",
+      "mod_description": "Убирает красную вспышку при получении урона для лучшей видимости",
+      "default_enabled": true
+    },
+    {
+      "file": "nopoof-1.20.1-1.0.0.jar",
+      "mod_name": "No Poof",
+      "mod_description": "Убирает частицы облаков при уничтожении энтити",
+      "default_enabled": false
+    },
+    {
+      "file": "oculus-mc1.20.1-1.8.0.jar",
+      "mod_name": "Oculus",
+      "mod_description": "Загрузчик шейдеров на основе Iris. Позволяет использовать шейдерпаки",
+      "default_enabled": true
+    },
+    {
+      "file": "PassableFoliage-1.20.1-forge-8.2.1.jar",
+      "mod_name": "Passable Foliage",
+      "mod_description": "Листва становится проходимой: можно заходить в кусты и листья",
+      "default_enabled": false
+    },
+    {
+      "file": "sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+      "mod_name": "Sound Physics Remastered",
+      "mod_description": "Реалистичная звуковая физика: эхо, реверберация, приглушение через стены",
+      "default_enabled": false
+    },
+    {
+      "file": "starlight-1.1.2+forge.1cda73c.jar",
+      "mod_name": "Starlight",
+      "mod_description": "Оптимизация освещения: переписанный движок света для лучшего FPS",
+      "default_enabled": true
+    },
+    {
+      "file": "survival_instinct-1.0.2-forge-1.20.1.jar",
+      "mod_name": "Survival Instinct",
+      "mod_description": "Эффекты экрана при низком здоровье: пульс, размытие, красная окантовка",
+      "default_enabled": false
+    },
+    {
+      "file": "tacticalmovement-1.0.0.jar",
+      "mod_name": "Tactical Movement",
+      "mod_description": "Тактические перемещения: подкаты, перекаты, скольжение, прыжки",
+      "default_enabled": false
+    },
+    {
+      "file": "Explosion-Overhaul-0.2.3.0-forge-.jar",
+      "mod_name": "Explosion Overhaul",
+      "mod_description": "Улучшенные взрывы: реалистичная физика, осколки, ударная волна",
+      "default_enabled": false
+    },
+    {
+      "file": "Gunfire Overhaul-0.1.6-a.jar",
+      "mod_name": "Gunfire Overhaul",
+      "mod_description": "Переработка стрельбы: новые эффекты, звуки, механики оружия",
+      "default_enabled": false
+    },
+    {
+      "file": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+      "mod_name": "Rubidium Extra",
+      "mod_description": "Дополнительные настройки графики для Embeddium/Rubidium",
+      "default_enabled": true
+    },
+    {
+      "file": "SimpleCustomEarlyLoading-2.2-forge.jar",
+      "mod_name": "Simple Custom Early Loading",
+      "mod_description": "Кастомный экран загрузки с картинкой и прогресс-баром",
+      "default_enabled": false
+    }
+  ]
+}
