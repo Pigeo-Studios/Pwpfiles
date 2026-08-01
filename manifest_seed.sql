@@ -3,7 +3,7 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('.gitattributes', 9, '8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992', 'latest', 'game', NULL, NULL, FALSE),
 ('authlib-injector.jar', 341858, '795b276cb40855ed04dc7fcabc2a6d150de4600b542875a6522e65f6b25bca9f', 'latest', 'game', 'authlib injector', NULL, FALSE),
 ('forge-installer.jar', 8835110, '0ebcf198609f925e0018842a79473ef74fda78534f86d82f2c0fdb26449c1fa4', 'latest', 'game', 'forge installer', NULL, FALSE),
-('launcher-version.json', 351, '7e37bc2eddbe5ec2633d8dbd28bd255a67ab0eb8556d907696d72f14ac23413c', 'latest', 'game', 'launcher version', NULL, FALSE),
+('launcher-version.json', 356, '6e1dc09e328b7a3975e8edf8b7444ceade1fd8312ea9ee634a9ffd09c6a199c0', 'latest', 'game', 'launcher version', NULL, FALSE),
 ('options.txt', 9908, 'eac1a2424e921f7884608515a5bb128bc1cce972c8ea78ee1eb22545b3f114d8', 'latest', 'game', 'options', NULL, FALSE),
 ('config/BerezkaAPI.toml', 1104, 'f7d2b698e098d03d6c01492610164bde95ae3cfccdcefe50c4001b409cf3e94d', 'latest', 'config', 'BerezkaAPI', NULL, FALSE),
 ('config/connector.json', 144, '060e296a5fddce603e50034e3cdb6059c3a0e122d0aae3d85a0523341c82ea22', 'latest', 'config', 'connector', NULL, FALSE),
