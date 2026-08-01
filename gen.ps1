@@ -101,6 +101,8 @@ $files = Get-ChildItem -LiteralPath $serverDir -Recurse -File | Where-Object {
     $fn -notlike "*\.metadata.json" -and
     $fn -notlike "*\.connector\*" -and
     $fn -notlike "*\.index\*" -and
+    $fn -notlike "*\anticheat\*" -and
+    $fn -notlike "*.sig" -and
     $fn -notlike "*.log" -and
     $fn -notlike "*.lock"
 }
