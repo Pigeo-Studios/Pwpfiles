@@ -130,7 +130,7 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('mods/pwp-cosmetics-1.0.0.jar', 23470, 'a18187acecb44ff28b9517ef42b4df52431353b79f9dbc99dadd686ad6aa323f', 'latest', 'mod', 'pwp cosmetics', NULL, FALSE),
 ('mods/pwp-limits-1.0.2.jar', 13610, '5622efbb3cc6c26feb1c4de57a67f73a15d4f633187274fad251dc097fc1f9ba', 'latest', 'mod', 'pwp limits', NULL, FALSE),
 ('mods/pwp-lobby-1.0.0.jar', 66207, '9d49fb7915ee12ec597f5190144813461919bda0ff66bed6890b66f4ec13f2ce', 'latest', 'mod', 'pwp lobby', NULL, FALSE),
-('mods/pwp-medicine-1.0.3.jar', 97850, '39beac62b67429734b5c6033d751c0bfb9d0fbf1cd019799c376d37f03436a1e', 'latest', 'mod', 'pwp medicine', NULL, FALSE),
+('mods/pwp-medicine-1.0.3.jar', 97850, 'f0fe80840e48fdb8eaf2f1bb0ffd74fde51bb1b947b698ecb18fd513f242cbe8', 'latest', 'mod', 'pwp medicine', NULL, FALSE),
 ('mods/pwp-movement-1.0.0.jar', 6730, 'c6b2b70ec196b5b46155e289863a60fc9435c6990207da6b3328e740d6e26fcb', 'latest', 'mod', 'pwp movement', NULL, FALSE),
 ('mods/pwp-warfare-1.0.1.jar', 12576164, '7b05be9ca28d3767cbcd3ce534d4d686d250edfe90cc010f8e0d886dcec7dd35', 'latest', 'mod', 'pwp warfare', NULL, FALSE),
 ('mods/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar', 568608, '32c28582040dfab4e167542bf319107296e9eff3cb17f4f576eba036f2d256da', 'latest', 'mod', 'Rubidium Extra', NULL, FALSE),
