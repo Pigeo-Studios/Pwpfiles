@@ -1,6 +1,7 @@
 ﻿TRUNCATE pwp_core.file_manifests;
 INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
 ('.gitattributes', 9, '8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992', 'latest', 'game', NULL, NULL, FALSE),
+('.gitignore', 226, 'a743c883ddd8964aad8bf57b8c2948aa746c08a7aa3a17d21dd757744d7470c1', 'latest', 'game', NULL, NULL, FALSE),
 ('authlib-injector.jar', 341858, '795b276cb40855ed04dc7fcabc2a6d150de4600b542875a6522e65f6b25bca9f', 'latest', 'game', 'authlib injector', NULL, FALSE),
 ('forge-installer.jar', 8835110, '0ebcf198609f925e0018842a79473ef74fda78534f86d82f2c0fdb26449c1fa4', 'latest', 'game', 'forge installer', NULL, FALSE),
 ('launcher-version.json', 356, '6e1dc09e328b7a3975e8edf8b7444ceade1fd8312ea9ee634a9ffd09c6a199c0', 'latest', 'game', 'launcher version', NULL, FALSE),
@@ -124,15 +125,15 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('mods/PassableFoliage-1.20.1-forge-8.2.1.jar', 30618, '15c215f1782c21f1ee1295eae3a5e96386eefc790247f5f32bd74893b967ec14', 'latest', 'mod', 'Passable Foliage', NULL, FALSE),
 ('mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar', 181437, '90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691', 'latest', 'mod', 'player animation lib', NULL, FALSE),
 ('mods/pointblank-forge-1.20.1-1.11.1.jar', 17452885, 'df6f6f1773c62e8fdfe6f15e4be87c44dbbbb26335b9c6153482ca1b81ac4f61', 'latest', 'mod', 'pointblank', NULL, FALSE),
-('mods/pwp-blast-protection-1.0.0.jar', 14045, '953fd7d5fdefaa06cf9c7d0b3868b302a98bd329d688a76f6693c936d14c3d5c', 'latest', 'mod', 'pwp blast protection', NULL, FALSE),
-('mods/pwp-core-client-1.0.1.jar', 4765497, '200917bc1525857afe249f8612850e6eff263785da1b731bcddaca7ee8fb9335', 'latest', 'mod', 'pwp core client', NULL, FALSE),
-('mods/pwp-core-server-1.0.2.jar', 26423, 'd38a6d796947e3dff60300954be799601cfbf7d22955e7b2a482d8f63e9f58ec', 'latest', 'mod', 'pwp core server', NULL, FALSE),
-('mods/pwp-cosmetics-1.0.0.jar', 23470, '2d29ac04734715039799e1fd89bef1cc3de58b8aee408cf672acac838ab15fc9', 'latest', 'mod', 'pwp cosmetics', NULL, FALSE),
+('mods/pwp-blast-protection-1.0.0.jar', 14045, '911a12d7a8e21d06e88dcef7522a1bd9326e7874be3748c8d32fea0c28ba8b32', 'latest', 'mod', 'pwp blast protection', NULL, FALSE),
+('mods/pwp-core-client-1.0.1.jar', 4765497, '91a572a1b317eebc67c8b2cbf2d8232f8ac20f3773293590de8111a850ff20bd', 'latest', 'mod', 'pwp core client', NULL, FALSE),
+('mods/pwp-core-server-1.0.2.jar', 26423, '5c673de83d6e09e3a2d9f4e4ea380c18567d4cf2b220b350255352c4c3c7966e', 'latest', 'mod', 'pwp core server', NULL, FALSE),
+('mods/pwp-cosmetics-1.0.0.jar', 23470, '65cb01794276d085bb861cedaa2c414896f3ced26b8a28e9873c95453ca2aa4c', 'latest', 'mod', 'pwp cosmetics', NULL, FALSE),
 ('mods/pwp-limits-1.0.2.jar', 13610, '5622efbb3cc6c26feb1c4de57a67f73a15d4f633187274fad251dc097fc1f9ba', 'latest', 'mod', 'pwp limits', NULL, FALSE),
 ('mods/pwp-lobby-1.0.0.jar', 67632, '3f1fdc74ef28543447bb4b9588f110d4e7a70056c8a35ee149de45185ea41c84', 'latest', 'mod', 'pwp lobby', NULL, FALSE),
 ('mods/pwp-medicine-1.0.3.jar', 97850, 'f0fe80840e48fdb8eaf2f1bb0ffd74fde51bb1b947b698ecb18fd513f242cbe8', 'latest', 'mod', 'pwp medicine', NULL, FALSE),
 ('mods/pwp-movement-1.0.0.jar', 6730, 'c6b2b70ec196b5b46155e289863a60fc9435c6990207da6b3328e740d6e26fcb', 'latest', 'mod', 'pwp movement', NULL, FALSE),
-('mods/pwp-warfare-1.0.1.jar', 12578852, 'f2ea26b795e2123d2fa569475a8fe7f1baeb5750a12e5837db17a16d45d82d94', 'latest', 'mod', 'pwp warfare', NULL, FALSE),
+('mods/pwp-warfare-1.0.1.jar', 12585989, 'dfe09d0ca280250de08d12da9981c5f96b1e85d26cbfba1c9d7cb50a7be6cda5', 'latest', 'mod', 'pwp warfare', NULL, FALSE),
 ('mods/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar', 568608, '32c28582040dfab4e167542bf319107296e9eff3cb17f4f576eba036f2d256da', 'latest', 'mod', 'Rubidium Extra', NULL, FALSE),
 ('mods/sbw_ew_addon-1.0.4.jar', 1725069, '8a45dbdc6df107336fcdb434db5d0c9a6ab017183b70f1406cfcbaab3b00d5b3', 'latest', 'mod', 'sbw ew addon', NULL, FALSE),
 ('mods/SimpleCustomEarlyLoading-2.2-forge.jar', 895996, '3d12ec8f575c19c16e8cbb6df6c9a67051a52fc21b318e5ab13bf4ff0b0f8b9d', 'latest', 'mod', 'Simple Custom Early Loading', NULL, FALSE),
@@ -498,9 +499,9 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('tacz/gucci_vuitton_attachment/assets/gucci_attachments/geo_models/attachment/stock_heavy2_geo.json', 65610, 'a7361797859247a232e874376b3b3df7eb53ae691da16c2824dfe11976705907', 'latest', 'game', 'stock heavy2 geo', NULL, FALSE),
 ('tacz/gucci_vuitton_attachment/assets/gucci_attachments/geo_models/attachment/stock_light1_geo.json', 89779, '837697e3160f4e63a1db15e2c0591f16440527314a51ce3abdaeebb20c75ce3e', 'latest', 'game', 'stock light1 geo', NULL, FALSE),
 ('tacz/gucci_vuitton_attachment/assets/gucci_attachments/geo_models/attachment/stock_light2_geo.json', 54093, 'bbb4fd2c8980819db4049f58a9a8b7edb823617a198868e18b1d07411f509b9d', 'latest', 'game', 'stock light2 geo', NULL, FALSE),
-('tacz/gucci_vuitton_attachment/assets/gucci_attachments/geo_models/attachment/stock_light3_geo.json', 43675, 'f9482a55245a18a9dde625545fdbeec26f71911590c0fc37bd5344ee3a662318', 'latest', 'game', 'stock light3 geo', NULL, FALSE),
-('tacz/gucci_vuitton_attachment/assets/gucci_attachments/geo_models/attachment/stock_precise_geo.json', 27602, '6d7cb0c5bddf1a09a230a5f39ae224050350515f32648b10daa108357eb40a53', 'latest', 'game', 'stock precise geo', NULL, FALSE);
+('tacz/gucci_vuitton_attachment/assets/gucci_attachments/geo_models/attachment/stock_light3_geo.json', 43675, 'f9482a55245a18a9dde625545fdbeec26f71911590c0fc37bd5344ee3a662318', 'latest', 'game', 'stock light3 geo', NULL, FALSE);
 INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
+('tacz/gucci_vuitton_attachment/assets/gucci_attachments/geo_models/attachment/stock_precise_geo.json', 27602, '6d7cb0c5bddf1a09a230a5f39ae224050350515f32648b10daa108357eb40a53', 'latest', 'game', 'stock precise geo', NULL, FALSE),
 ('tacz/gucci_vuitton_attachment/assets/gucci_attachments/lang/en_us.json', 4169, '9519093f9c3f7035aae26e8525dcec78276fc30ebb686eda5645be92c973a670', 'latest', 'game', 'en us', NULL, FALSE),
 ('tacz/gucci_vuitton_attachment/assets/gucci_attachments/lang/ru_ru.json', 1226, '1df168d7eb5ef4756ef9a7a15a45452826675d6990bf03fc3054bfd40e41f192', 'latest', 'game', 'ru ru', NULL, FALSE),
 ('tacz/gucci_vuitton_attachment/assets/gucci_attachments/lang/zh_cn.json', 4321, 'a08162e8c35273c9198e9b7a8976c909a5e08bd85c0e10bd31186b70e409b2e0', 'latest', 'game', 'zh cn', NULL, FALSE),
@@ -999,9 +1000,9 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('tacz/maxstuff/assets/maxstuff/display/guns/ak22_display.json', 4282, 'abd9d69665067cec12688ae7dbf05c23ac165494b9560ca9c60ba98589295e50', 'latest', 'game', 'ak22 display', NULL, FALSE),
 ('tacz/maxstuff/assets/maxstuff/display/guns/ak308_display.json', 4361, 'a09d06c0dc1130ba8b152e6e31ec009c34cdce045562fb1c774b193967965c80', 'latest', 'game', 'ak308 display', NULL, FALSE),
 ('tacz/maxstuff/assets/maxstuff/display/guns/ak63e_display.json', 4325, '38733b7a91219d144b78261ae9d77e2a0e0c363fac9568c1a167f4a2c5e33c59', 'latest', 'game', 'ak63e display', NULL, FALSE),
-('tacz/maxstuff/assets/maxstuff/display/guns/ak74m_display.json', 4344, '8280bb9ec714199f4b17399995c95e16ce2cded5ebd0abfc33ff1ae8529ac87d', 'latest', 'game', 'ak74m display', NULL, FALSE),
-('tacz/maxstuff/assets/maxstuff/display/guns/ak74_display.json', 4338, 'e716783e4d8a7c459d9539506ba7f2846751abfc6d29578685b3e9540f8febd2', 'latest', 'game', 'ak74 display', NULL, FALSE);
+('tacz/maxstuff/assets/maxstuff/display/guns/ak74m_display.json', 4344, '8280bb9ec714199f4b17399995c95e16ce2cded5ebd0abfc33ff1ae8529ac87d', 'latest', 'game', 'ak74m display', NULL, FALSE);
 INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
+('tacz/maxstuff/assets/maxstuff/display/guns/ak74_display.json', 4338, 'e716783e4d8a7c459d9539506ba7f2846751abfc6d29578685b3e9540f8febd2', 'latest', 'game', 'ak74 display', NULL, FALSE),
 ('tacz/maxstuff/assets/maxstuff/display/guns/ak9_display.json', 3855, 'f5aca69e73939e723e3ccdbb2f6f5e820f4f483ffe7c291be72eefef34f152ba', 'latest', 'game', 'ak9 display', NULL, FALSE),
 ('tacz/maxstuff/assets/maxstuff/display/guns/aks74ub_display.json', 4361, '58d2cd55b13d051311c3d10042767767ac52efe5b3c34f6d3b05db1523efb9cd', 'latest', 'game', 'aks74ub display', NULL, FALSE),
 ('tacz/maxstuff/assets/maxstuff/display/guns/aks74u_display.json', 4351, '299e752cebbb4e088b2a7ce595816e8f5e163a94af6781f624fc75a4f2d7c0fd', 'latest', 'game', 'aks74u display', NULL, FALSE),
@@ -1500,9 +1501,9 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('tacz/maxstuff/assets/maxstuff/textures/attachment/slot/underbarrel_flashlight.png', 3605, '099e965af739d2d4bb8a315dc69c690339238d00da4a94f5b2045d6e6f9bbfef', 'latest', 'game', 'underbarrel flashlight', NULL, FALSE),
 ('tacz/maxstuff/assets/maxstuff/textures/attachment/slot/vuduu.png', 3953, '4691f8d72e0dc17daeb3adf767566660ee9f2d42b20d6b2e35c56e42904cb4a9', 'latest', 'game', 'vuduu', NULL, FALSE),
 ('tacz/maxstuff/assets/maxstuff/textures/attachment/uv/a3_grip.png', 1646, 'ab9cc8af09d75c14eca22c470c5d103fe09e5c9314a42d832cfb2244372a237c', 'latest', 'game', 'a3 grip', NULL, FALSE),
-('tacz/maxstuff/assets/maxstuff/textures/attachment/uv/canted_irons.png', 2615, 'b5258f9b0ed06d78fe67381f3f6322fb57ca29bc85f78cf7e7009482dd0fa25a', 'latest', 'game', 'canted irons', NULL, FALSE),
-('tacz/maxstuff/assets/maxstuff/textures/attachment/uv/glaser.png', 389, '24965c41c1daa869b5ff6ee5c3c07ad09336c1db94331a9bc9eb20ad93825a40', 'latest', 'game', 'glaser', NULL, FALSE);
+('tacz/maxstuff/assets/maxstuff/textures/attachment/uv/canted_irons.png', 2615, 'b5258f9b0ed06d78fe67381f3f6322fb57ca29bc85f78cf7e7009482dd0fa25a', 'latest', 'game', 'canted irons', NULL, FALSE);
 INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
+('tacz/maxstuff/assets/maxstuff/textures/attachment/uv/glaser.png', 389, '24965c41c1daa869b5ff6ee5c3c07ad09336c1db94331a9bc9eb20ad93825a40', 'latest', 'game', 'glaser', NULL, FALSE),
 ('tacz/maxstuff/assets/maxstuff/textures/attachment/uv/hera_cqr_stock.png', 4820, 'ec7ac628b7fdce6e311d608577518c8d2a77ab49838f5a0da3365095636a4775', 'latest', 'game', 'hera cqr stock', NULL, FALSE),
 ('tacz/maxstuff/assets/maxstuff/textures/attachment/uv/hera_cqr_stock_tan.png', 4493, '5a27be1f2740823328cee4bef1ce260489795990022d38829abf6fa32b52899f', 'latest', 'game', 'hera cqr stock tan', NULL, FALSE),
 ('tacz/maxstuff/assets/maxstuff/textures/attachment/uv/loudener.png', 1029, 'b3d08502efee8bfd6885f5dbbfd085e0fcb3e432ad3dfb3b5b539e774841cf45', 'latest', 'game', 'loudener', NULL, FALSE),
@@ -2001,9 +2002,9 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('tacz/maxstuff/data/maxstuff/data/guns/m17_data.json', 1602, '3ba1647e6f7da3232473358614ca700c787f8b4cf11b127c3e62c54d0f5af955', 'latest', 'game', 'm17 data', NULL, FALSE),
 ('tacz/maxstuff/data/maxstuff/data/guns/m1_garand_data.json', 2805, 'f0f4f80e288ef6ff71aab503e178c5b20f7b8614f48c3902808a6471d3b3fb26', 'latest', 'game', 'm1 garand data', NULL, FALSE),
 ('tacz/maxstuff/data/maxstuff/data/guns/m1_garand_tac_data.json', 2857, '1465d324c8114ca04a0cdaa17730ca5f445b5e36c27fac45671c78739e72a997', 'latest', 'game', 'm1 garand tac data', NULL, FALSE),
-('tacz/maxstuff/data/maxstuff/data/guns/m231_data.json', 2339, '9ec99809ffa834a1a630f104a8030758ad8453e5b8d8851c21828548c44f50f7', 'latest', 'game', 'm231 data', NULL, FALSE),
-('tacz/maxstuff/data/maxstuff/data/guns/m320t_data.json', 2243, 'e24370a6b7fb8eb0abf7709ec19596935b51b2877dff9e9ece08cab2dfadb4e2', 'latest', 'game', 'm320t data', NULL, FALSE);
+('tacz/maxstuff/data/maxstuff/data/guns/m231_data.json', 2339, '9ec99809ffa834a1a630f104a8030758ad8453e5b8d8851c21828548c44f50f7', 'latest', 'game', 'm231 data', NULL, FALSE);
 INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
+('tacz/maxstuff/data/maxstuff/data/guns/m320t_data.json', 2243, 'e24370a6b7fb8eb0abf7709ec19596935b51b2877dff9e9ece08cab2dfadb4e2', 'latest', 'game', 'm320t data', NULL, FALSE),
 ('tacz/maxstuff/data/maxstuff/data/guns/m82a2_data.json', 2273, '8e41c2557f6343872fa7ca05cf401d3ae6b5527eaad4f97545604d5d8db55750', 'latest', 'game', 'm82a2 data', NULL, FALSE),
 ('tacz/maxstuff/data/maxstuff/data/guns/m870t_data.json', 2850, '416e3f6437818d99a249cbb01507b523c7284b13ad20c7dcb11297f26e2cdeb9', 'latest', 'game', 'm870t data', NULL, FALSE),
 ('tacz/maxstuff/data/maxstuff/data/guns/mini_fix_data.json', 1850, 'a402f1a07f4096b6bf8d2da281c863c49ce11442d7ba6b92aa16c9223b8ec1bc', 'latest', 'game', 'mini fix data', NULL, FALSE),
@@ -2502,9 +2503,9 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('tacz/rfp/assets/blitz/gunpack_info.json', 220, 'f24a808626bb64a15bfa6864ffe01a03dd3b3bbb46fd189c27e567bf55510121', 'latest', 'game', 'gunpack info', NULL, FALSE),
 ('tacz/rfp/assets/blitz/animations/bhp.animation.json', 66228, '69474685ee9aff60d16a42f2613623953aecf558d338f693bf1b8316ea2f6b6a', 'latest', 'game', 'bhp.animation', NULL, FALSE),
 ('tacz/rfp/assets/blitz/animations/blitz.animation.json', 34332, '70b72dddd2cbd4df01a1f7fa31ee1ef874a201ccbfe4abca7325fdf601bac611', 'latest', 'game', 'blitz.animation', NULL, FALSE),
-('tacz/rfp/assets/blitz/display/guns/blitz_display.json', 1241, 'd63f6e77affdc7c71ca74e0e99112847137776680850aec1a3410c413cf5fd02', 'latest', 'game', 'blitz display', NULL, FALSE),
-('tacz/rfp/assets/blitz/geo_models/gun/bhp_geo.json', 308180, 'd0a481533288238e75f29655aa21ef1a2b3a2ddb0fe8981781be3670c5232a49', 'latest', 'game', 'bhp geo', NULL, FALSE);
+('tacz/rfp/assets/blitz/display/guns/blitz_display.json', 1241, 'd63f6e77affdc7c71ca74e0e99112847137776680850aec1a3410c413cf5fd02', 'latest', 'game', 'blitz display', NULL, FALSE);
 INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
+('tacz/rfp/assets/blitz/geo_models/gun/bhp_geo.json', 308180, 'd0a481533288238e75f29655aa21ef1a2b3a2ddb0fe8981781be3670c5232a49', 'latest', 'game', 'bhp geo', NULL, FALSE),
 ('tacz/rfp/assets/blitz/geo_models/gun/blitz_geo.json', 237185, 'a90296e795351ecfe4be18919d537e64466d16de9c5cf5063f378f3c2193954b', 'latest', 'game', 'blitz geo', NULL, FALSE),
 ('tacz/rfp/assets/blitz/lang/en_us.json', 285, 'c2947416711fc3c0dfa34e5f27980f4c9ef83bf0631dd12ac501342067eaac68', 'latest', 'game', 'en us', NULL, FALSE),
 ('tacz/rfp/assets/blitz/lang/zh_cn.json', 249, '8114b330117b1dc800224676b807b3519b9c3fb96b15bec6a507f958064af8c0', 'latest', 'game', 'zh cn', NULL, FALSE),
@@ -3003,9 +3004,9 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('tacz/rfp/assets/rfp/scripts/test_rpl20_state_machine.lua', 34914, '87bd8cf27fb71c9a21f240628dd867d598202de7e39818641295b507a11aa96f', 'latest', 'game', 'test rpl20 state machine', NULL, FALSE),
 ('tacz/rfp/assets/rfp/scripts/test_state_machine.lua', 29910, '571f18b424932245c4db478cda05803b4e6ac62d5f9897c62d5709328ae4ecaa', 'latest', 'game', 'test state machine', NULL, FALSE),
 ('tacz/rfp/assets/rfp/scripts/test_state_machine2.lua', 29912, 'e2f9612388eb607f9764f8609cb9d8c689080964d90a476ee3c2009a7f628e5b', 'latest', 'game', 'test state machine2', NULL, FALSE),
-('tacz/rfp/assets/rfp/tacz_sounds/6p41bp/draw.ogg', 65404, '5280c400cd3643dbfb3acad043c77fd66346ba7ef3b6eee2abe05da128c13c66', 'latest', 'game', 'draw', NULL, FALSE),
-('tacz/rfp/assets/rfp/tacz_sounds/6p41bp/inspect.ogg', 250594, 'b1bd4b064c43920f144add4e864b3aef27c69f5f1e9892c307a8bbd0e7b29561', 'latest', 'game', 'inspect', NULL, FALSE);
+('tacz/rfp/assets/rfp/tacz_sounds/6p41bp/draw.ogg', 65404, '5280c400cd3643dbfb3acad043c77fd66346ba7ef3b6eee2abe05da128c13c66', 'latest', 'game', 'draw', NULL, FALSE);
 INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
+('tacz/rfp/assets/rfp/tacz_sounds/6p41bp/inspect.ogg', 250594, 'b1bd4b064c43920f144add4e864b3aef27c69f5f1e9892c307a8bbd0e7b29561', 'latest', 'game', 'inspect', NULL, FALSE),
 ('tacz/rfp/assets/rfp/tacz_sounds/6p41bp/inspect_empty.ogg', 234662, 'aab9c09bd65408eec51247e4e3b63f24c533cac80b231c49f0dd5258474971f1', 'latest', 'game', 'inspect empty', NULL, FALSE),
 ('tacz/rfp/assets/rfp/tacz_sounds/6p41bp/put_away.ogg', 24873, '231dca9a354ac8b063fbaa9cbae3a0c2ef98d55e4040c50ee4599a60d8da0093', 'latest', 'game', 'put away', NULL, FALSE),
 ('tacz/rfp/assets/rfp/tacz_sounds/6p41bp/reload_empty.ogg', 376072, '95f85c5c3683bd6ae18a6e818d15b79e442c6ef54e18ca9602b98a4ab84fd4a9', 'latest', 'game', 'reload empty', NULL, FALSE),
@@ -3504,9 +3505,9 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('tacz/tacz_default_gun/assets/tacz/display/attachments/grip_vertical_military_display.json', 420, '49b701fb7e5ab150f4fd11fabef74c03343ec256f0042893eeb56aa100235244', 'latest', 'game', 'grip vertical military display', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/display/attachments/grip_vertical_ranger_display.json', 644, '032c3180ccea254dd9ce705e0a31f0d66844726521404966b060064df7350f5e', 'latest', 'game', 'grip vertical ranger display', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/display/attachments/grip_vertical_talon_display.json', 411, '061602563c374e98eece7d0f922fd12d58d097ef77820d820971679714008a0e', 'latest', 'game', 'grip vertical talon display', NULL, FALSE),
-('tacz/tacz_default_gun/assets/tacz/display/attachments/laser_compact_display.json', 845, '675504fd0686bbe1bdb543e0f481f71a4cf8a09f6d6e40bdd20f4d9e8c0823d6', 'latest', 'game', 'laser compact display', NULL, FALSE),
-('tacz/tacz_default_gun/assets/tacz/display/attachments/laser_lopro_display.json', 751, 'ff1aa3d6a5e0083e84115b0fec89b017acde182fbf8e4c1de7cc9ed55fb5582d', 'latest', 'game', 'laser lopro display', NULL, FALSE);
+('tacz/tacz_default_gun/assets/tacz/display/attachments/laser_compact_display.json', 845, '675504fd0686bbe1bdb543e0f481f71a4cf8a09f6d6e40bdd20f4d9e8c0823d6', 'latest', 'game', 'laser compact display', NULL, FALSE);
 INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
+('tacz/tacz_default_gun/assets/tacz/display/attachments/laser_lopro_display.json', 751, 'ff1aa3d6a5e0083e84115b0fec89b017acde182fbf8e4c1de7cc9ed55fb5582d', 'latest', 'game', 'laser lopro display', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/display/attachments/laser_nightstick_display.json', 767, '6583ade5a1c0148536d7f57f1a4b4ebf5d952b1f3fb216f98212811fa54af42e', 'latest', 'game', 'laser nightstick display', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/display/attachments/laser_peq15_display.json', 554, '2dcb90ba34d024bbd726a323a2105533b902919e29510e44bb2a25f776a0dfc4', 'latest', 'game', 'laser peq15 display', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/display/attachments/laser_peq6_display.json', 555, 'f92801058bae1d6b09536b6f44ff72d5afe3d568045c4c6910de17157b3e7b6c', 'latest', 'game', 'laser peq6 display', NULL, FALSE),
@@ -4005,9 +4006,9 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/ai_awp/awp_reload_empty_end.ogg', 29920, '7de93c655c00ec4ec5c113a12e90e4312669eef82268ab36ada755586c3b5499', 'latest', 'game', 'awp reload empty end', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/ai_awp/awp_reload_empty_fast_01_rattle.ogg', 19793, 'df17ca6917744dd2e502cac5ad9139cad56f899400ad7b3f88b081cff78570d2', 'latest', 'game', 'awp reload empty fast 01 rattle', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/ai_awp/awp_reload_empty_fast_maghit.ogg', 10023, 'f1f453187a9ac3ad3b0c4f9f9cb9c5197697d2c9bd9ded13e982c24932122470', 'latest', 'game', 'awp reload empty fast maghit', NULL, FALSE),
-('tacz/tacz_default_gun/assets/tacz/tacz_sounds/ai_awp/awp_reload_empty_maghit_01.ogg', 24345, '49d7381b3f01c341997f15da9990f575de0204687373cfc94189d77606250162', 'latest', 'game', 'awp reload empty maghit 01', NULL, FALSE),
-('tacz/tacz_default_gun/assets/tacz/tacz_sounds/ai_awp/awp_reload_empty_magin.ogg', 12578, '8ad85a78f5643ac929babbb063fb44024eaaee83b52debca1829d4a2e4124b92', 'latest', 'game', 'awp reload empty magin', NULL, FALSE);
+('tacz/tacz_default_gun/assets/tacz/tacz_sounds/ai_awp/awp_reload_empty_maghit_01.ogg', 24345, '49d7381b3f01c341997f15da9990f575de0204687373cfc94189d77606250162', 'latest', 'game', 'awp reload empty maghit 01', NULL, FALSE);
 INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
+('tacz/tacz_default_gun/assets/tacz/tacz_sounds/ai_awp/awp_reload_empty_magin.ogg', 12578, '8ad85a78f5643ac929babbb063fb44024eaaee83b52debca1829d4a2e4124b92', 'latest', 'game', 'awp reload empty magin', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/ai_awp/awp_reload_empty_magout.ogg', 23599, '3c486f75137b14b2431eeba215c2dde76f601939651643e7f19e8a93369e4bdf', 'latest', 'game', 'awp reload empty magout', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/ai_awp/awp_reload_empty_mag_drop.ogg', 17723, '72784abe916839f811846b13000db12d687d35f1a2735803a644871d3b461525', 'latest', 'game', 'awp reload empty mag drop', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/ai_awp/awp_reload_empty_raise.ogg', 17035, '4816763b2a91f22b848ce8f243fa9d1d2d8e1d615bd6d6e516ddb9a1e52d536f', 'latest', 'game', 'awp reload empty raise', NULL, FALSE),
@@ -4506,9 +4507,9 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/m107/m107_draw.ogg', 60180, '92f4220429aea3753d985f1fa022dd6ef14087ef1c8f366b0347c2a4b6c6eb71', 'latest', 'game', 'm107 draw', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/m107/m107_inspect_01.ogg', 30240, '9ad699a7b4db71fd7b5199b9e6e156941c7d6133fbf298ce16622c700fceb869', 'latest', 'game', 'm107 inspect 01', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/m107/m107_inspect_02.ogg', 17430, '46101bd04a498ca06852b3049c64a61482b909175de7437574b461885a924a20', 'latest', 'game', 'm107 inspect 02', NULL, FALSE),
-('tacz/tacz_default_gun/assets/tacz/tacz_sounds/m107/m107_inspect_03.ogg', 22672, '69b99d67391818ef88f884030a54926941ec9df112a3be0c5d766b269e8c6f94', 'latest', 'game', 'm107 inspect 03', NULL, FALSE),
-('tacz/tacz_default_gun/assets/tacz/tacz_sounds/m107/m107_inspect_04.ogg', 26782, '4b8326590c3f6b5cce3c8d1fb90ad145510eccd0051fccd01dc38b699380bdde', 'latest', 'game', 'm107 inspect 04', NULL, FALSE);
+('tacz/tacz_default_gun/assets/tacz/tacz_sounds/m107/m107_inspect_03.ogg', 22672, '69b99d67391818ef88f884030a54926941ec9df112a3be0c5d766b269e8c6f94', 'latest', 'game', 'm107 inspect 03', NULL, FALSE);
 INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
+('tacz/tacz_default_gun/assets/tacz/tacz_sounds/m107/m107_inspect_04.ogg', 26782, '4b8326590c3f6b5cce3c8d1fb90ad145510eccd0051fccd01dc38b699380bdde', 'latest', 'game', 'm107 inspect 04', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/m107/m107_inspect_05.ogg', 28243, '75b78faa16f0958582280675b5f3382af6bd1dc9a3649966d478ae765859c906', 'latest', 'game', 'm107 inspect 05', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/m107/m107_inspect_end.ogg', 40337, '196dc437cbbd27b88012120098a311bcca17b5992d275b7a0e25550a88a30278', 'latest', 'game', 'm107 inspect end', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/m107/m107_inspect_grabrotate.ogg', 41567, '8cdd7506da205b51446975de5c6e2c6722f10d8019b6690abede871001cbb788', 'latest', 'game', 'm107 inspect grabrotate', NULL, FALSE),
@@ -5007,9 +5008,9 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/scar_h/p05_ar_schotel_reload_empty_raise.ogg', 18042, '6c66ef268026eec0841a91e3b8b615388ad1ca8b6aaec13d986d953ae18574eb', 'latest', 'game', 'p05 ar schotel reload empty raise', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/scar_h/p05_ar_schotel_reload_end.ogg', 38312, 'da951b35e8af1031c86381b8b41b92af6315ba8c4f0c655a3b2d1da35ae5b8fd', 'latest', 'game', 'p05 ar schotel reload end', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/scar_h/p05_ar_schotel_reload_raise.ogg', 30769, 'e10cc4434256b9e192a534fa9f3c94363a34cbb99607299443f68d0417312fc3', 'latest', 'game', 'p05 ar schotel reload raise', NULL, FALSE),
-('tacz/tacz_default_gun/assets/tacz/tacz_sounds/scar_h/p05_ar_schotel_reload_ubgl_magout.ogg', 18377, '6beafdf38e62d878c5468060f472f432aae3cf4b982bd046f767921071ad435a', 'latest', 'game', 'p05 ar schotel reload ubgl magout', NULL, FALSE),
-('tacz/tacz_default_gun/assets/tacz/tacz_sounds/scar_h/p05_ar_schotel_ubgl_drop_rattle.ogg', 30440, '77005f42bc7cef5c498ec452b1f82ff95f70baccec46abe3dae8a8c38520644f', 'latest', 'game', 'p05 ar schotel ubgl drop rattle', NULL, FALSE);
+('tacz/tacz_default_gun/assets/tacz/tacz_sounds/scar_h/p05_ar_schotel_reload_ubgl_magout.ogg', 18377, '6beafdf38e62d878c5468060f472f432aae3cf4b982bd046f767921071ad435a', 'latest', 'game', 'p05 ar schotel reload ubgl magout', NULL, FALSE);
 INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
+('tacz/tacz_default_gun/assets/tacz/tacz_sounds/scar_h/p05_ar_schotel_ubgl_drop_rattle.ogg', 30440, '77005f42bc7cef5c498ec452b1f82ff95f70baccec46abe3dae8a8c38520644f', 'latest', 'game', 'p05 ar schotel ubgl drop rattle', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/scar_h/scar_h_shoot.ogg', 154350, '78bfb0da28da5dc17addc90f466e89b2d571cb7447479eb57334bca76a41c037', 'latest', 'game', 'scar h shoot', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/scar_h/scar_h_shoot_3p.ogg', 30592, '5b769438d291cec0290a48fd6a454f25d71caf93a3948db56be7c8709718ba1a', 'latest', 'game', 'scar h shoot 3p', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/tacz_sounds/scar_h/scar_h_silence.ogg', 123417, 'fc98664b22c3333c5a31e3792c05916ce7248a1f7edf32abc32be832cc1a0425', 'latest', 'game', 'scar h silence', NULL, FALSE),
@@ -5508,9 +5509,9 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('tacz/tacz_default_gun/assets/tacz/textures/attachment/slot/stock_heavy_spas_12.png', 3651, '70ba1daaf79a86c70cc48192b0e8ac0238f1e089ef882a92eaa584fa0f701301', 'latest', 'game', 'stock heavy spas 12', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/textures/attachment/slot/stock_hk_slim_line.png', 7367, '7377b88fec1103e6aa0ca396c5df956f1b6aedd0b3c9aa5be278b4b32b47f409', 'latest', 'game', 'stock hk slim line', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/textures/attachment/slot/stock_m4ss.png', 5969, 'bc5089939815a4cfad340557b8f63b32f7c603da4b2dda1d48975c608e255495', 'latest', 'game', 'stock m4ss', NULL, FALSE),
-('tacz/tacz_default_gun/assets/tacz/textures/attachment/slot/stock_militech_b5.png', 4887, '25f3e81cd5c9bf6b1b8d19792c5a1c153dd6f5803f2e31b8e0e5a0504cdf10b0', 'latest', 'game', 'stock militech b5', NULL, FALSE),
-('tacz/tacz_default_gun/assets/tacz/textures/attachment/slot/stock_moe.png', 5878, 'cc543b59e626f577588e8ab5f93da70d5f8a7e5d4b40793b58840b4e8ff98cce', 'latest', 'game', 'stock moe', NULL, FALSE);
+('tacz/tacz_default_gun/assets/tacz/textures/attachment/slot/stock_militech_b5.png', 4887, '25f3e81cd5c9bf6b1b8d19792c5a1c153dd6f5803f2e31b8e0e5a0504cdf10b0', 'latest', 'game', 'stock militech b5', NULL, FALSE);
 INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
+('tacz/tacz_default_gun/assets/tacz/textures/attachment/slot/stock_moe.png', 5878, 'cc543b59e626f577588e8ab5f93da70d5f8a7e5d4b40793b58840b4e8ff98cce', 'latest', 'game', 'stock moe', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/textures/attachment/slot/stock_ripstock.png', 5512, 'b204c1f488bf8db9e2a4029dbaafb5a07502e468748214304dfe2a9d6f8b86e8', 'latest', 'game', 'stock ripstock', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/textures/attachment/slot/stock_sba3.png', 6136, '842bea2f3aea251f9d025d54587702ce107efb81d1132205872a334feb1b38ff', 'latest', 'game', 'stock sba3', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/textures/attachment/slot/stock_tactical_ar.png', 4986, '766c50c40247ee5715c9de4d86e86417b868068761343c136bae9abe22dffbaf', 'latest', 'game', 'stock tactical ar', NULL, FALSE),
@@ -6009,9 +6010,9 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('tacz/tacz_default_gun/assets/tacz/textures/gun/uv/qbz_95_n.png', 10115, '6ccf484db2de5e7ae0faf899c43b039f5b7f5650aa7606f99ff53fda046a3df7', 'latest', 'game', 'qbz 95 n', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/textures/gun/uv/qbz_95_s.png', 9812, '9646075c3aefaf43d129871f763fe21c28eb34b5ebb4d5f3d2d2089ad6dd1753', 'latest', 'game', 'qbz 95 s', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/textures/gun/uv/rhino357.png', 14028, 'e4f0bb9e8165c88d1c3353a339798b0af0f8b0759e604d723ec0910c10f5d31e', 'latest', 'game', 'rhino357', NULL, FALSE),
-('tacz/tacz_default_gun/assets/tacz/textures/gun/uv/rhino357_s.png', 8196, '64a8f865de05fc2f2799cebb29da6479f289dee621fc7118cfffb73ee440128d', 'latest', 'game', 'rhino357 s', NULL, FALSE),
-('tacz/tacz_default_gun/assets/tacz/textures/gun/uv/rpg7.png', 15030, '66eb3e72d27b0981bc274901e343816ddcc4ffb281a77b7484abc4d662c3e471', 'latest', 'game', 'rpg7', NULL, FALSE);
+('tacz/tacz_default_gun/assets/tacz/textures/gun/uv/rhino357_s.png', 8196, '64a8f865de05fc2f2799cebb29da6479f289dee621fc7118cfffb73ee440128d', 'latest', 'game', 'rhino357 s', NULL, FALSE);
 INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
+('tacz/tacz_default_gun/assets/tacz/textures/gun/uv/rpg7.png', 15030, '66eb3e72d27b0981bc274901e343816ddcc4ffb281a77b7484abc4d662c3e471', 'latest', 'game', 'rpg7', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/textures/gun/uv/rpg7_n.png', 4935, '0b59928d2993004da35ecabbfbc73cd980e9bf1196347cbfa510339fe5fbba18', 'latest', 'game', 'rpg7 n', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/textures/gun/uv/rpg7_s.png', 3879, '02e299c3392859a2e264c3d71ef20046a027119011666c534ae6f009fd363a9c', 'latest', 'game', 'rpg7 s', NULL, FALSE),
 ('tacz/tacz_default_gun/assets/tacz/textures/gun/uv/rpk.png', 36201, '9bc6b8ffb1712c6081c1b30ab269feeac8b7b0b67bd85ee35758f888e8e5b9f4', 'latest', 'game', 'rpk', NULL, FALSE),
@@ -6510,9 +6511,9 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('tacz/tacz_default_gun/data/tacz/recipes/attachments/muzzle_silencer_vulture.json', 448, '8b446907235b774e5aafc985a95c737e74e198d86763f0f55f72b66e516b5733', 'latest', 'game', 'muzzle silencer vulture', NULL, FALSE),
 ('tacz/tacz_default_gun/data/tacz/recipes/attachments/muzzle_silencer_wraith.json', 441, 'f25c99642f789b9fdb553a1bd0342d936e5f10caeec663a5df61cd797c032154', 'latest', 'game', 'muzzle silencer wraith', NULL, FALSE),
 ('tacz/tacz_default_gun/data/tacz/recipes/attachments/oem_stock_heavy.json', 341, 'b748618ab72129a37fa92aba007c0f38d2ad98e4894b264dcb7016d666202442', 'latest', 'game', 'oem stock heavy', NULL, FALSE),
-('tacz/tacz_default_gun/data/tacz/recipes/attachments/oem_stock_light.json', 340, 'a67aedeff1f5c88a6933e598a924e8792067bb84d1f34defb63e476e91673c72', 'latest', 'game', 'oem stock light', NULL, FALSE),
-('tacz/tacz_default_gun/data/tacz/recipes/attachments/oem_stock_tactical.json', 344, '1f7e8271041f112f14d9a170af8840c658df7f4f0ab346459d854e08a98467e8', 'latest', 'game', 'oem stock tactical', NULL, FALSE);
+('tacz/tacz_default_gun/data/tacz/recipes/attachments/oem_stock_light.json', 340, 'a67aedeff1f5c88a6933e598a924e8792067bb84d1f34defb63e476e91673c72', 'latest', 'game', 'oem stock light', NULL, FALSE);
 INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name,mod_description,mod_optional) VALUES
+('tacz/tacz_default_gun/data/tacz/recipes/attachments/oem_stock_tactical.json', 344, '1f7e8271041f112f14d9a170af8840c658df7f4f0ab346459d854e08a98467e8', 'latest', 'game', 'oem stock tactical', NULL, FALSE),
 ('tacz/tacz_default_gun/data/tacz/recipes/attachments/scope_1873_6x.json', 434, '5c3f80fc72c88fe6be141fc5cc6188b8f30e05a6b739e4496f4ea0e91dfde2f3', 'latest', 'game', 'scope 1873 6x', NULL, FALSE),
 ('tacz/tacz_default_gun/data/tacz/recipes/attachments/scope_98k.json', 341, '3364cd0bfb68e362668920d28427d82074c16bc0d4242aa845ab8621d3844492', 'latest', 'game', 'scope 98k', NULL, FALSE),
 ('tacz/tacz_default_gun/data/tacz/recipes/attachments/scope_acog_ta31.json', 446, '22c9642a3f261073bd0476946bb95a84b08cc52b73451da524cb4cab473b5974', 'latest', 'game', 'scope acog ta31', NULL, FALSE),
