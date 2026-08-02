@@ -127,7 +127,7 @@ INSERT INTO file_manifests (file_path,file_size,sha256,version,category,mod_name
 ('mods/pwp-blast-protection-1.0.0.jar', 14045, '953fd7d5fdefaa06cf9c7d0b3868b302a98bd329d688a76f6693c936d14c3d5c', 'latest', 'mod', 'pwp blast protection', NULL, FALSE),
 ('mods/pwp-core-client-1.0.1.jar', 4765497, '200917bc1525857afe249f8612850e6eff263785da1b731bcddaca7ee8fb9335', 'latest', 'mod', 'pwp core client', NULL, FALSE),
 ('mods/pwp-core-server-1.0.2.jar', 26423, 'd38a6d796947e3dff60300954be799601cfbf7d22955e7b2a482d8f63e9f58ec', 'latest', 'mod', 'pwp core server', NULL, FALSE),
-('mods/pwp-cosmetics-1.0.0.jar', 23470, '91efcfcd6399b73338e1e860dd6a4406f69b1fc06970f421014dbe5bb4319487', 'latest', 'mod', 'pwp cosmetics', NULL, FALSE),
+('mods/pwp-cosmetics-1.0.0.jar', 23470, '2d29ac04734715039799e1fd89bef1cc3de58b8aee408cf672acac838ab15fc9', 'latest', 'mod', 'pwp cosmetics', NULL, FALSE),
 ('mods/pwp-limits-1.0.2.jar', 13610, '5622efbb3cc6c26feb1c4de57a67f73a15d4f633187274fad251dc097fc1f9ba', 'latest', 'mod', 'pwp limits', NULL, FALSE),
 ('mods/pwp-lobby-1.0.0.jar', 67632, '3f1fdc74ef28543447bb4b9588f110d4e7a70056c8a35ee149de45185ea41c84', 'latest', 'mod', 'pwp lobby', NULL, FALSE),
 ('mods/pwp-medicine-1.0.3.jar', 97850, 'f0fe80840e48fdb8eaf2f1bb0ffd74fde51bb1b947b698ecb18fd513f242cbe8', 'latest', 'mod', 'pwp medicine', NULL, FALSE),
