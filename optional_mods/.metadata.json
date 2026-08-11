@@ -37,12 +37,6 @@
       "default_enabled": true
     },
     {
-      "file": "matmos_tct-7.5-forge-1.20.1.jar",
-      "mod_name": "MAtmos TCT",
-      "mod_description": "Расширенная звуковая система окружения с погодой и биомами",
-      "default_enabled": false
-    },
-    {
       "file": "nohurtflash-1.20.1-0.1.2.jar",
       "mod_name": "No Hurt Flash",
       "mod_description": "Убирает красную вспышку при получении урона для лучшей видимости",
