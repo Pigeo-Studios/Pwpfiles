@@ -30,7 +30,7 @@
 
 [Stamina_HUD_Configuration]
 	#Allowed Values: Normal, Light, Hide
-	stamina_hud_type = "Light"
+	stamina_hud_type = "Hide"
 	#horizontal alignment
 	#Allowed Values: Left, Right
 	align_h_s_hud = "Right"
@@ -39,7 +39,7 @@
 	align_v_s_hud = "Bottom"
 	hide_hud_if_stamina_infinite = true
 	#Stamina HUD shows action charge rate, cool time or etc
-	show_action_status_bar = true
+	show_action_status_bar = false
 	#Light stamina HUD shows always
 	show_light_hud_always = false
 	#horizontal offset of normal HUD
